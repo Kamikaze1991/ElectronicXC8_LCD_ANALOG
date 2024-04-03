@@ -1,0 +1,5511 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"3269 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3269:     struct {
+[s S136 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S136 . LATD0 LATD1 LATD2 LATD3 LATD4 LATD5 LATD6 LATD7 ]
+"3279
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3279:     struct {
+[s S137 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S137 . LD0 LD1 LD2 LD3 LD4 LD5 LD6 LD7 ]
+"3268
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3268: typedef union {
+[u S135 `S136 1 `S137 1 ]
+[n S135 . . . ]
+"3290
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3290: extern volatile LATDbits_t LATDbits __attribute__((address(0xF8C)));
+[v _LATDbits `VS135 ~T0 @X0 0 e@3980 ]
+"30 ./spi.h
+[; ;./spi.h: 30: void SPI_Write(unsigned char dato);
+[v _SPI_Write `(v ~T0 @X0 0 ef1`uc ]
+"132 ./tft_st7735.h
+[; ;./tft_st7735.h: 132: void Delay_ms(unsigned int d);
+[v _Delay_ms `(v ~T0 @X0 0 ef1`ui ]
+"4012 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4012:     struct {
+[s S160 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S160 . TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
+"4022
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4022:     struct {
+[s S161 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S161 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"4011
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4011: typedef union {
+[u S159 `S160 1 `S161 1 ]
+[n S159 . . . ]
+"4033
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4033: extern volatile TRISDbits_t TRISDbits __attribute__((address(0xF95)));
+[v _TRISDbits `VS159 ~T0 @X0 0 e@3989 ]
+[v F205 `(v ~T0 @X0 1 tf1`ul ]
+"20 C:\Program Files\Microchip\xc8\v2.46\pic\include\builtins.h
+[v __delay `JF205 ~T0 @X0 0 e ]
+[p i __delay ]
+"28 ./spi.h
+[; ;./spi.h: 28: void SPI_Init_Master(char reloj, char modo, char smp);
+[v _SPI_Init_Master `(v ~T0 @X0 0 ef3`uc`uc`uc ]
+"124 ./tft_st7735.h
+[; ;./tft_st7735.h: 124: void TFT_SetRotation(uint8_t m);
+[v _TFT_SetRotation `(v ~T0 @X0 0 ef1`uc ]
+"130
+[; ;./tft_st7735.h: 130: void SetAddrWindow(uint8_t x, uint8_t y, uint8_t w, uint8_t h);
+[v _SetAddrWindow `(v ~T0 @X0 0 ef4`uc`uc`uc`uc ]
+"78 C:\Program Files\Microchip\xc8\v2.46\pic\include\c99\stdlib.h
+[; ;C:\Program Files\Microchip\xc8\v2.46\pic\include\c99\stdlib.h: 78: int abs (int);
+[v _abs `(i ~T0 @X0 0 ef1`i ]
+"162 ./tft_st7735.h
+[; ;./tft_st7735.h: 162: void TFT_FillCircleHelper(uint16_t x0, uint16_t y0, uint16_t r, uint8_t cornername, uint16_t delta, uint16_t color);
+[v _TFT_FillCircleHelper `(v ~T0 @X0 0 ef6`us`us`us`uc`us`us ]
+"54 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 54: __asm("SPPDATA equ 0F62h");
+[; <" SPPDATA equ 0F62h ;# ">
+"74
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 74: __asm("SPPCFG equ 0F63h");
+[; <" SPPCFG equ 0F63h ;# ">
+"151
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 151: __asm("SPPEPS equ 0F64h");
+[; <" SPPEPS equ 0F64h ;# ">
+"225
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 225: __asm("SPPCON equ 0F65h");
+[; <" SPPCON equ 0F65h ;# ">
+"251
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 251: __asm("UFRM equ 0F66h");
+[; <" UFRM equ 0F66h ;# ">
+"258
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 258: __asm("UFRML equ 0F66h");
+[; <" UFRML equ 0F66h ;# ">
+"336
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 336: __asm("UFRMH equ 0F67h");
+[; <" UFRMH equ 0F67h ;# ">
+"376
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 376: __asm("UIR equ 0F68h");
+[; <" UIR equ 0F68h ;# ">
+"432
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 432: __asm("UIE equ 0F69h");
+[; <" UIE equ 0F69h ;# ">
+"488
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 488: __asm("UEIR equ 0F6Ah");
+[; <" UEIR equ 0F6Ah ;# ">
+"539
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 539: __asm("UEIE equ 0F6Bh");
+[; <" UEIE equ 0F6Bh ;# ">
+"590
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 590: __asm("USTAT equ 0F6Ch");
+[; <" USTAT equ 0F6Ch ;# ">
+"650
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 650: __asm("UCON equ 0F6Dh");
+[; <" UCON equ 0F6Dh ;# ">
+"701
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 701: __asm("UADDR equ 0F6Eh");
+[; <" UADDR equ 0F6Eh ;# ">
+"765
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 765: __asm("UCFG equ 0F6Fh");
+[; <" UCFG equ 0F6Fh ;# ">
+"844
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 844: __asm("UEP0 equ 0F70h");
+[; <" UEP0 equ 0F70h ;# ">
+"952
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 952: __asm("UEP1 equ 0F71h");
+[; <" UEP1 equ 0F71h ;# ">
+"1060
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 1060: __asm("UEP2 equ 0F72h");
+[; <" UEP2 equ 0F72h ;# ">
+"1168
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 1168: __asm("UEP3 equ 0F73h");
+[; <" UEP3 equ 0F73h ;# ">
+"1276
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 1276: __asm("UEP4 equ 0F74h");
+[; <" UEP4 equ 0F74h ;# ">
+"1384
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 1384: __asm("UEP5 equ 0F75h");
+[; <" UEP5 equ 0F75h ;# ">
+"1492
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 1492: __asm("UEP6 equ 0F76h");
+[; <" UEP6 equ 0F76h ;# ">
+"1600
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 1600: __asm("UEP7 equ 0F77h");
+[; <" UEP7 equ 0F77h ;# ">
+"1708
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 1708: __asm("UEP8 equ 0F78h");
+[; <" UEP8 equ 0F78h ;# ">
+"1784
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 1784: __asm("UEP9 equ 0F79h");
+[; <" UEP9 equ 0F79h ;# ">
+"1860
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 1860: __asm("UEP10 equ 0F7Ah");
+[; <" UEP10 equ 0F7Ah ;# ">
+"1936
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 1936: __asm("UEP11 equ 0F7Bh");
+[; <" UEP11 equ 0F7Bh ;# ">
+"2012
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 2012: __asm("UEP12 equ 0F7Ch");
+[; <" UEP12 equ 0F7Ch ;# ">
+"2088
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 2088: __asm("UEP13 equ 0F7Dh");
+[; <" UEP13 equ 0F7Dh ;# ">
+"2164
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 2164: __asm("UEP14 equ 0F7Eh");
+[; <" UEP14 equ 0F7Eh ;# ">
+"2240
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 2240: __asm("UEP15 equ 0F7Fh");
+[; <" UEP15 equ 0F7Fh ;# ">
+"2316
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 2316: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"2455
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 2455: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"2565
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 2565: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"2707
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 2707: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"2828
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 2828: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"2975
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 2975: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"3075
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3075: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"3187
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3187: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"3265
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3265: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"3377
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3377: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"3429
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3429: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"3434
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3434: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"3627
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3627: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"3632
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3632: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"3849
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3849: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"3854
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 3854: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"4003
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4003: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"4008
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4008: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"4225
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4225: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"4230
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4230: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"4327
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4327: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"4386
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4386: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"4470
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4470: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"4554
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4554: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"4638
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4638: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"4709
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4709: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"4780
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4780: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"4851
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4851: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"4917
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4917: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"4924
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4924: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"4931
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4931: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"4938
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4938: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"4943
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 4943: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"5148
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5148: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"5153
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5153: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"5404
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5404: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"5409
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5409: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"5416
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5416: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"5421
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5421: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"5428
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5428: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"5433
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5433: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"5440
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5440: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"5447
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5447: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"5568
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5568: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"5575
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5575: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"5582
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5582: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"5589
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5589: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"5679
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5679: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"5764
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5764: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"5769
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5769: __asm("CCP1AS equ 0FB6h");
+[; <" CCP1AS equ 0FB6h ;# ">
+"5926
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5926: __asm("ECCP1DEL equ 0FB7h");
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"5931
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 5931: __asm("CCP1DEL equ 0FB7h");
+[; <" CCP1DEL equ 0FB7h ;# ">
+"6064
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6064: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"6069
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6069: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"6244
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6244: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"6308
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6308: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"6315
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6315: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"6322
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6322: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"6329
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6329: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"6334
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6334: __asm("ECCP1CON equ 0FBDh");
+[; <" ECCP1CON equ 0FBDh ;# ">
+"6491
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6491: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"6498
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6498: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"6505
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6505: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"6512
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6512: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"6583
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6583: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"6668
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6668: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"6787
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6787: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"6794
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6794: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"6801
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6801: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"6808
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6808: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"6870
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6870: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"6940
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 6940: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"7188
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7188: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"7195
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7195: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"7202
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7202: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"7300
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7300: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"7305
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7305: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"7410
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7410: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"7417
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7417: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"7520
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7520: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"7527
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7527: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"7534
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7534: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"7541
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7541: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"7690
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7690: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"7718
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7718: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"7723
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7723: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"7988
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 7988: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"8071
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8071: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"8141
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8141: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"8148
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8148: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"8155
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8155: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"8162
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8162: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"8233
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8233: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"8240
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8240: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"8247
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8247: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"8254
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8254: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"8261
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8261: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"8268
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8268: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"8275
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8275: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"8282
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8282: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"8289
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8289: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"8296
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8296: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"8303
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8303: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"8310
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8310: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"8317
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8317: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"8324
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8324: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"8331
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8331: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"8338
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8338: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"8345
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8345: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"8352
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8352: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"8359
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8359: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"8366
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8366: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"8373
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8373: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"8380
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8380: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"8387
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8387: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"8394
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8394: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"8401
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8401: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"8408
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8408: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"8415
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8415: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"8507
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8507: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"8584
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8584: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"8701
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8701: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"8708
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8708: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"8715
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8715: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"8722
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8722: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"8731
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8731: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"8738
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8738: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"8745
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8745: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"8752
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8752: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"8761
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8761: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"8768
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8768: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"8775
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8775: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"8782
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8782: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"8789
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8789: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"8796
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8796: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"8872
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8872: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"8879
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8879: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"8886
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8886: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"8893
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4550.h: 8893: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"108 ./tft_st7735.h
+[; ;./tft_st7735.h: 108: uint8_t _width;
+[v __width `uc ~T0 @X0 1 e ]
+"109
+[; ;./tft_st7735.h: 109: uint8_t _height;
+[v __height `uc ~T0 @X0 1 e ]
+"110
+[; ;./tft_st7735.h: 110: uint8_t _xstart = 0;
+[v __xstart `uc ~T0 @X0 1 e ]
+[i __xstart
+-> -> 0 `i `uc
+]
+"111
+[; ;./tft_st7735.h: 111: uint8_t _ystart = 0;
+[v __ystart `uc ~T0 @X0 1 e ]
+[i __ystart
+-> -> 0 `i `uc
+]
+"112
+[; ;./tft_st7735.h: 112: uint8_t _colstart = 0;
+[v __colstart `uc ~T0 @X0 1 e ]
+[i __colstart
+-> -> 0 `i `uc
+]
+"113
+[; ;./tft_st7735.h: 113: uint8_t _rowstart = 0;
+[v __rowstart `uc ~T0 @X0 1 e ]
+[i __rowstart
+-> -> 0 `i `uc
+]
+"114
+[; ;./tft_st7735.h: 114: uint8_t tabcolor;
+[v _tabcolor `uc ~T0 @X0 1 e ]
+"115
+[; ;./tft_st7735.h: 115: uint8_t rotation = 0;
+[v _rotation `uc ~T0 @X0 1 e ]
+[i _rotation
+-> -> 0 `i `uc
+]
+"141
+[; ;./tft_st7735.h: 141: int16_t cursor_x = 0, cursor_y = 0;
+[v _cursor_x `s ~T0 @X0 1 e ]
+[i _cursor_x
+-> -> 0 `i `s
+]
+[v _cursor_y `s ~T0 @X0 1 e ]
+[i _cursor_y
+-> -> 0 `i `s
+]
+"142
+[; ;./tft_st7735.h: 142: uint16_t textcolor = 0xFFFF, textbgcolor = 0xFFFF;
+[v _textcolor `us ~T0 @X0 1 e ]
+[i _textcolor
+-> -> 65535 `ui `us
+]
+[v _textbgcolor `us ~T0 @X0 1 e ]
+[i _textbgcolor
+-> -> 65535 `ui `us
+]
+"143
+[; ;./tft_st7735.h: 143: uint8_t textsize = 1;
+[v _textsize `uc ~T0 @X0 1 e ]
+[i _textsize
+-> -> 1 `i `uc
+]
+"144
+[; ;./tft_st7735.h: 144: _Bool wrap = 1;
+[v _wrap `a ~T0 @X0 1 e ]
+[i _wrap
+-> -> 1 `i `a
+]
+"4 tft_st7735.c
+[; ;tft_st7735.c: 4:   Bcmd[] = {
+[v _Bcmd `Cuc ~T0 @X0 -> 103 `i e ]
+[i _Bcmd
+:U ..
+-> -> 18 `i `uc
+-> -> 1 `i `uc
+-> -> 128 `i `uc
+-> -> 50 `i `uc
+-> -> 17 `i `uc
+-> -> 128 `i `uc
+-> -> 255 `i `uc
+-> -> 58 `i `uc
+-> + -> 1 `i -> 128 `i `uc
+-> -> 5 `i `uc
+-> -> 10 `i `uc
+-> -> 177 `i `uc
+-> + -> 3 `i -> 128 `i `uc
+-> -> 0 `i `uc
+-> -> 6 `i `uc
+-> -> 3 `i `uc
+-> -> 10 `i `uc
+-> -> 54 `i `uc
+-> -> 1 `i `uc
+-> -> 8 `i `uc
+-> -> 182 `i `uc
+-> -> 2 `i `uc
+-> -> 21 `i `uc
+-> -> 2 `i `uc
+-> -> 180 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 192 `i `uc
+-> + -> 2 `i -> 128 `i `uc
+-> -> 2 `i `uc
+-> -> 112 `i `uc
+-> -> 10 `i `uc
+-> -> 193 `i `uc
+-> -> 1 `i `uc
+-> -> 5 `i `uc
+-> -> 194 `i `uc
+-> -> 2 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 197 `i `uc
+-> + -> 2 `i -> 128 `i `uc
+-> -> 60 `i `uc
+-> -> 56 `i `uc
+-> -> 10 `i `uc
+-> -> 252 `i `uc
+-> -> 2 `i `uc
+-> -> 17 `i `uc
+-> -> 21 `i `uc
+-> -> 224 `i `uc
+-> -> 16 `i `uc
+-> -> 9 `i `uc
+-> -> 22 `i `uc
+-> -> 9 `i `uc
+-> -> 32 `i `uc
+-> -> 33 `i `uc
+-> -> 27 `i `uc
+-> -> 19 `i `uc
+-> -> 25 `i `uc
+-> -> 23 `i `uc
+-> -> 21 `i `uc
+-> -> 30 `i `uc
+-> -> 43 `i `uc
+-> -> 4 `i `uc
+-> -> 5 `i `uc
+-> -> 2 `i `uc
+-> -> 14 `i `uc
+-> -> 225 `i `uc
+-> + -> 16 `i -> 128 `i `uc
+-> -> 11 `i `uc
+-> -> 20 `i `uc
+-> -> 8 `i `uc
+-> -> 30 `i `uc
+-> -> 34 `i `uc
+-> -> 29 `i `uc
+-> -> 24 `i `uc
+-> -> 30 `i `uc
+-> -> 27 `i `uc
+-> -> 26 `i `uc
+-> -> 36 `i `uc
+-> -> 43 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 2 `i `uc
+-> -> 15 `i `uc
+-> -> 10 `i `uc
+-> -> 42 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 129 `i `uc
+-> -> 43 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 129 `i `uc
+-> -> 19 `i `uc
+-> -> 128 `i `uc
+-> -> 10 `i `uc
+-> -> 41 `i `uc
+-> -> 128 `i `uc
+-> -> 255 `i `uc
+..
+]
+"63
+[; ;tft_st7735.c: 63:   Rcmd1[] = {
+[v _Rcmd1 `Cuc ~T0 @X0 -> 20 `i e ]
+[i _Rcmd1
+:U ..
+-> -> 6 `i `uc
+-> -> 1 `i `uc
+-> -> 128 `i `uc
+-> -> 150 `i `uc
+-> -> 17 `i `uc
+-> -> 128 `i `uc
+-> -> 10 `i `uc
+-> -> 58 `i `uc
+-> + -> 1 `i -> 128 `i `uc
+-> -> 85 `i `uc
+-> -> 10 `i `uc
+-> -> 54 `i `uc
+-> -> 1 `i `uc
+-> -> 8 `i `uc
+-> -> 19 `i `uc
+-> -> 128 `i `uc
+-> -> 10 `i `uc
+-> -> 41 `i `uc
+-> -> 128 `i `uc
+-> -> 10 `i `uc
+..
+]
+"80
+[; ;tft_st7735.c: 80:   Rcmd2green[] = {
+[v _Rcmd2green `Cuc ~T0 @X0 -> 13 `i e ]
+[i _Rcmd2green
+:U ..
+-> -> 2 `i `uc
+-> -> 42 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> + -> 127 `i -> 2 `i `uc
+-> -> 43 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> + -> 159 `i -> 1 `i `uc
+..
+]
+"89
+[; ;tft_st7735.c: 89:   Rcmd2red[] = {
+[v _Rcmd2red `Cuc ~T0 @X0 -> 13 `i e ]
+[i _Rcmd2red
+:U ..
+-> -> 2 `i `uc
+-> -> 42 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 127 `i `uc
+-> -> 43 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 159 `i `uc
+..
+]
+"98
+[; ;tft_st7735.c: 98:   Rcmd2green144[] = {
+[v _Rcmd2green144 `Cuc ~T0 @X0 -> 13 `i e ]
+[i _Rcmd2green144
+:U ..
+-> -> 2 `i `uc
+-> -> 42 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 127 `i `uc
+-> -> 43 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 127 `i `uc
+..
+]
+"107
+[; ;tft_st7735.c: 107:   Rcmd2green160x80[] = {
+[v _Rcmd2green160x80 `Cuc ~T0 @X0 -> 13 `i e ]
+[i _Rcmd2green160x80
+:U ..
+-> -> 2 `i `uc
+-> -> 42 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 127 `i `uc
+-> -> 43 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 159 `i `uc
+..
+]
+"116
+[; ;tft_st7735.c: 116:   Rcmd3[] = {
+[v _Rcmd3 `Cuc ~T0 @X0 -> 43 `i e ]
+[i _Rcmd3
+:U ..
+-> -> 4 `i `uc
+-> -> 224 `i `uc
+-> -> 16 `i `uc
+-> -> 2 `i `uc
+-> -> 28 `i `uc
+-> -> 7 `i `uc
+-> -> 18 `i `uc
+-> -> 55 `i `uc
+-> -> 50 `i `uc
+-> -> 41 `i `uc
+-> -> 45 `i `uc
+-> -> 41 `i `uc
+-> -> 37 `i `uc
+-> -> 43 `i `uc
+-> -> 57 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 3 `i `uc
+-> -> 16 `i `uc
+-> -> 225 `i `uc
+-> -> 16 `i `uc
+-> -> 3 `i `uc
+-> -> 29 `i `uc
+-> -> 7 `i `uc
+-> -> 6 `i `uc
+-> -> 46 `i `uc
+-> -> 44 `i `uc
+-> -> 41 `i `uc
+-> -> 45 `i `uc
+-> -> 46 `i `uc
+-> -> 46 `i `uc
+-> -> 55 `i `uc
+-> -> 63 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 16 `i `uc
+-> -> 19 `i `uc
+-> -> 128 `i `uc
+-> -> 10 `i `uc
+-> -> 41 `i `uc
+-> -> 128 `i `uc
+-> -> 100 `i `uc
+..
+]
+[v F3876 `Cuc ~T0 @X0 -> 5 `i t ]
+"134
+[; ;tft_st7735.c: 134: static const uint8_t font[256][5] = {
+[v _font `F3876 ~T0 @X0 -> 256 `i s ]
+[i _font
+:U ..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 62 `i `uc
+-> -> 91 `i `uc
+-> -> 79 `i `uc
+-> -> 91 `i `uc
+-> -> 62 `i `uc
+..
+:U ..
+-> -> 62 `i `uc
+-> -> 107 `i `uc
+-> -> 79 `i `uc
+-> -> 107 `i `uc
+-> -> 62 `i `uc
+..
+:U ..
+-> -> 28 `i `uc
+-> -> 62 `i `uc
+-> -> 124 `i `uc
+-> -> 62 `i `uc
+-> -> 28 `i `uc
+..
+:U ..
+-> -> 24 `i `uc
+-> -> 60 `i `uc
+-> -> 126 `i `uc
+-> -> 60 `i `uc
+-> -> 24 `i `uc
+..
+:U ..
+-> -> 28 `i `uc
+-> -> 87 `i `uc
+-> -> 125 `i `uc
+-> -> 87 `i `uc
+-> -> 28 `i `uc
+..
+:U ..
+-> -> 28 `i `uc
+-> -> 94 `i `uc
+-> -> 127 `i `uc
+-> -> 94 `i `uc
+-> -> 28 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 24 `i `uc
+-> -> 60 `i `uc
+-> -> 24 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 255 `i `uc
+-> -> 231 `i `uc
+-> -> 195 `i `uc
+-> -> 231 `i `uc
+-> -> 255 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 24 `i `uc
+-> -> 36 `i `uc
+-> -> 24 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 255 `i `uc
+-> -> 231 `i `uc
+-> -> 219 `i `uc
+-> -> 231 `i `uc
+-> -> 255 `i `uc
+..
+:U ..
+-> -> 48 `i `uc
+-> -> 72 `i `uc
+-> -> 58 `i `uc
+-> -> 6 `i `uc
+-> -> 14 `i `uc
+..
+:U ..
+-> -> 38 `i `uc
+-> -> 41 `i `uc
+-> -> 121 `i `uc
+-> -> 41 `i `uc
+-> -> 38 `i `uc
+..
+:U ..
+-> -> 64 `i `uc
+-> -> 127 `i `uc
+-> -> 5 `i `uc
+-> -> 5 `i `uc
+-> -> 7 `i `uc
+..
+:U ..
+-> -> 64 `i `uc
+-> -> 127 `i `uc
+-> -> 5 `i `uc
+-> -> 37 `i `uc
+-> -> 63 `i `uc
+..
+:U ..
+-> -> 90 `i `uc
+-> -> 60 `i `uc
+-> -> 231 `i `uc
+-> -> 60 `i `uc
+-> -> 90 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 62 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 8 `i `uc
+..
+:U ..
+-> -> 8 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 62 `i `uc
+-> -> 127 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 34 `i `uc
+-> -> 127 `i `uc
+-> -> 34 `i `uc
+-> -> 20 `i `uc
+..
+:U ..
+-> -> 95 `i `uc
+-> -> 95 `i `uc
+-> -> 0 `i `uc
+-> -> 95 `i `uc
+-> -> 95 `i `uc
+..
+:U ..
+-> -> 6 `i `uc
+-> -> 9 `i `uc
+-> -> 127 `i `uc
+-> -> 1 `i `uc
+-> -> 127 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 102 `i `uc
+-> -> 137 `i `uc
+-> -> 149 `i `uc
+-> -> 106 `i `uc
+..
+:U ..
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+..
+:U ..
+-> -> 148 `i `uc
+-> -> 162 `i `uc
+-> -> 255 `i `uc
+-> -> 162 `i `uc
+-> -> 148 `i `uc
+..
+:U ..
+-> -> 8 `i `uc
+-> -> 4 `i `uc
+-> -> 126 `i `uc
+-> -> 4 `i `uc
+-> -> 8 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 32 `i `uc
+-> -> 126 `i `uc
+-> -> 32 `i `uc
+-> -> 16 `i `uc
+..
+:U ..
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 42 `i `uc
+-> -> 28 `i `uc
+-> -> 8 `i `uc
+..
+:U ..
+-> -> 8 `i `uc
+-> -> 28 `i `uc
+-> -> 42 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+..
+:U ..
+-> -> 30 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+..
+:U ..
+-> -> 12 `i `uc
+-> -> 30 `i `uc
+-> -> 12 `i `uc
+-> -> 30 `i `uc
+-> -> 12 `i `uc
+..
+:U ..
+-> -> 48 `i `uc
+-> -> 56 `i `uc
+-> -> 62 `i `uc
+-> -> 56 `i `uc
+-> -> 48 `i `uc
+..
+:U ..
+-> -> 6 `i `uc
+-> -> 14 `i `uc
+-> -> 62 `i `uc
+-> -> 14 `i `uc
+-> -> 6 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 95 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 127 `i `uc
+-> -> 20 `i `uc
+-> -> 127 `i `uc
+-> -> 20 `i `uc
+..
+:U ..
+-> -> 36 `i `uc
+-> -> 42 `i `uc
+-> -> 127 `i `uc
+-> -> 42 `i `uc
+-> -> 18 `i `uc
+..
+:U ..
+-> -> 35 `i `uc
+-> -> 19 `i `uc
+-> -> 8 `i `uc
+-> -> 100 `i `uc
+-> -> 98 `i `uc
+..
+:U ..
+-> -> 54 `i `uc
+-> -> 73 `i `uc
+-> -> 86 `i `uc
+-> -> 32 `i `uc
+-> -> 80 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 7 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 28 `i `uc
+-> -> 34 `i `uc
+-> -> 65 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 34 `i `uc
+-> -> 28 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 42 `i `uc
+-> -> 28 `i `uc
+-> -> 127 `i `uc
+-> -> 28 `i `uc
+-> -> 42 `i `uc
+..
+:U ..
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 62 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 128 `i `uc
+-> -> 112 `i `uc
+-> -> 48 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 32 `i `uc
+-> -> 16 `i `uc
+-> -> 8 `i `uc
+-> -> 4 `i `uc
+-> -> 2 `i `uc
+..
+:U ..
+-> -> 62 `i `uc
+-> -> 81 `i `uc
+-> -> 73 `i `uc
+-> -> 69 `i `uc
+-> -> 62 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 66 `i `uc
+-> -> 127 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 114 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 70 `i `uc
+..
+:U ..
+-> -> 33 `i `uc
+-> -> 65 `i `uc
+-> -> 73 `i `uc
+-> -> 77 `i `uc
+-> -> 51 `i `uc
+..
+:U ..
+-> -> 24 `i `uc
+-> -> 20 `i `uc
+-> -> 18 `i `uc
+-> -> 127 `i `uc
+-> -> 16 `i `uc
+..
+:U ..
+-> -> 39 `i `uc
+-> -> 69 `i `uc
+-> -> 69 `i `uc
+-> -> 69 `i `uc
+-> -> 57 `i `uc
+..
+:U ..
+-> -> 60 `i `uc
+-> -> 74 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 49 `i `uc
+..
+:U ..
+-> -> 65 `i `uc
+-> -> 33 `i `uc
+-> -> 17 `i `uc
+-> -> 9 `i `uc
+-> -> 7 `i `uc
+..
+:U ..
+-> -> 54 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 54 `i `uc
+..
+:U ..
+-> -> 70 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 41 `i `uc
+-> -> 30 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 20 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 52 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 20 `i `uc
+-> -> 34 `i `uc
+-> -> 65 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 34 `i `uc
+-> -> 20 `i `uc
+-> -> 8 `i `uc
+..
+:U ..
+-> -> 2 `i `uc
+-> -> 1 `i `uc
+-> -> 89 `i `uc
+-> -> 9 `i `uc
+-> -> 6 `i `uc
+..
+:U ..
+-> -> 62 `i `uc
+-> -> 65 `i `uc
+-> -> 93 `i `uc
+-> -> 89 `i `uc
+-> -> 78 `i `uc
+..
+:U ..
+-> -> 124 `i `uc
+-> -> 18 `i `uc
+-> -> 17 `i `uc
+-> -> 18 `i `uc
+-> -> 124 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 54 `i `uc
+..
+:U ..
+-> -> 62 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+-> -> 34 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+-> -> 62 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 65 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 9 `i `uc
+-> -> 9 `i `uc
+-> -> 9 `i `uc
+-> -> 1 `i `uc
+..
+:U ..
+-> -> 62 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+-> -> 81 `i `uc
+-> -> 115 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 127 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 127 `i `uc
+-> -> 65 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 32 `i `uc
+-> -> 64 `i `uc
+-> -> 65 `i `uc
+-> -> 63 `i `uc
+-> -> 1 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 8 `i `uc
+-> -> 20 `i `uc
+-> -> 34 `i `uc
+-> -> 65 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 2 `i `uc
+-> -> 28 `i `uc
+-> -> 2 `i `uc
+-> -> 127 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 4 `i `uc
+-> -> 8 `i `uc
+-> -> 16 `i `uc
+-> -> 127 `i `uc
+..
+:U ..
+-> -> 62 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+-> -> 62 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 9 `i `uc
+-> -> 9 `i `uc
+-> -> 9 `i `uc
+-> -> 6 `i `uc
+..
+:U ..
+-> -> 62 `i `uc
+-> -> 65 `i `uc
+-> -> 81 `i `uc
+-> -> 33 `i `uc
+-> -> 94 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 9 `i `uc
+-> -> 25 `i `uc
+-> -> 41 `i `uc
+-> -> 70 `i `uc
+..
+:U ..
+-> -> 38 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 50 `i `uc
+..
+:U ..
+-> -> 3 `i `uc
+-> -> 1 `i `uc
+-> -> 127 `i `uc
+-> -> 1 `i `uc
+-> -> 3 `i `uc
+..
+:U ..
+-> -> 63 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 63 `i `uc
+..
+:U ..
+-> -> 31 `i `uc
+-> -> 32 `i `uc
+-> -> 64 `i `uc
+-> -> 32 `i `uc
+-> -> 31 `i `uc
+..
+:U ..
+-> -> 63 `i `uc
+-> -> 64 `i `uc
+-> -> 56 `i `uc
+-> -> 64 `i `uc
+-> -> 63 `i `uc
+..
+:U ..
+-> -> 99 `i `uc
+-> -> 20 `i `uc
+-> -> 8 `i `uc
+-> -> 20 `i `uc
+-> -> 99 `i `uc
+..
+:U ..
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 120 `i `uc
+-> -> 4 `i `uc
+-> -> 3 `i `uc
+..
+:U ..
+-> -> 97 `i `uc
+-> -> 89 `i `uc
+-> -> 73 `i `uc
+-> -> 77 `i `uc
+-> -> 67 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 127 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+..
+:U ..
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 8 `i `uc
+-> -> 16 `i `uc
+-> -> 32 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+-> -> 127 `i `uc
+..
+:U ..
+-> -> 4 `i `uc
+-> -> 2 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+..
+:U ..
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 3 `i `uc
+-> -> 7 `i `uc
+-> -> 8 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 32 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 120 `i `uc
+-> -> 64 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 40 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 56 `i `uc
+..
+:U ..
+-> -> 56 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 40 `i `uc
+..
+:U ..
+-> -> 56 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 40 `i `uc
+-> -> 127 `i `uc
+..
+:U ..
+-> -> 56 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 24 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 126 `i `uc
+-> -> 9 `i `uc
+-> -> 2 `i `uc
+..
+:U ..
+-> -> 24 `i `uc
+-> -> 164 `i `uc
+-> -> 164 `i `uc
+-> -> 156 `i `uc
+-> -> 120 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 8 `i `uc
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 120 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 68 `i `uc
+-> -> 125 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 32 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 61 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 127 `i `uc
+-> -> 16 `i `uc
+-> -> 40 `i `uc
+-> -> 68 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 127 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 124 `i `uc
+-> -> 4 `i `uc
+-> -> 120 `i `uc
+-> -> 4 `i `uc
+-> -> 120 `i `uc
+..
+:U ..
+-> -> 124 `i `uc
+-> -> 8 `i `uc
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 120 `i `uc
+..
+:U ..
+-> -> 56 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 56 `i `uc
+..
+:U ..
+-> -> 252 `i `uc
+-> -> 24 `i `uc
+-> -> 36 `i `uc
+-> -> 36 `i `uc
+-> -> 24 `i `uc
+..
+:U ..
+-> -> 24 `i `uc
+-> -> 36 `i `uc
+-> -> 36 `i `uc
+-> -> 24 `i `uc
+-> -> 252 `i `uc
+..
+:U ..
+-> -> 124 `i `uc
+-> -> 8 `i `uc
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 8 `i `uc
+..
+:U ..
+-> -> 72 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 36 `i `uc
+..
+:U ..
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 63 `i `uc
+-> -> 68 `i `uc
+-> -> 36 `i `uc
+..
+:U ..
+-> -> 60 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 32 `i `uc
+-> -> 124 `i `uc
+..
+:U ..
+-> -> 28 `i `uc
+-> -> 32 `i `uc
+-> -> 64 `i `uc
+-> -> 32 `i `uc
+-> -> 28 `i `uc
+..
+:U ..
+-> -> 60 `i `uc
+-> -> 64 `i `uc
+-> -> 48 `i `uc
+-> -> 64 `i `uc
+-> -> 60 `i `uc
+..
+:U ..
+-> -> 68 `i `uc
+-> -> 40 `i `uc
+-> -> 16 `i `uc
+-> -> 40 `i `uc
+-> -> 68 `i `uc
+..
+:U ..
+-> -> 76 `i `uc
+-> -> 144 `i `uc
+-> -> 144 `i `uc
+-> -> 144 `i `uc
+-> -> 124 `i `uc
+..
+:U ..
+-> -> 68 `i `uc
+-> -> 100 `i `uc
+-> -> 84 `i `uc
+-> -> 76 `i `uc
+-> -> 68 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 54 `i `uc
+-> -> 65 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 119 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 54 `i `uc
+-> -> 8 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 2 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 2 `i `uc
+..
+:U ..
+-> -> 60 `i `uc
+-> -> 38 `i `uc
+-> -> 35 `i `uc
+-> -> 38 `i `uc
+-> -> 60 `i `uc
+..
+:U ..
+-> -> 30 `i `uc
+-> -> 161 `i `uc
+-> -> 161 `i `uc
+-> -> 97 `i `uc
+-> -> 18 `i `uc
+..
+:U ..
+-> -> 58 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 32 `i `uc
+-> -> 122 `i `uc
+..
+:U ..
+-> -> 56 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 85 `i `uc
+-> -> 89 `i `uc
+..
+:U ..
+-> -> 33 `i `uc
+-> -> 85 `i `uc
+-> -> 85 `i `uc
+-> -> 121 `i `uc
+-> -> 65 `i `uc
+..
+:U ..
+-> -> 34 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 120 `i `uc
+-> -> 66 `i `uc
+..
+:U ..
+-> -> 33 `i `uc
+-> -> 85 `i `uc
+-> -> 84 `i `uc
+-> -> 120 `i `uc
+-> -> 64 `i `uc
+..
+:U ..
+-> -> 32 `i `uc
+-> -> 84 `i `uc
+-> -> 85 `i `uc
+-> -> 121 `i `uc
+-> -> 64 `i `uc
+..
+:U ..
+-> -> 12 `i `uc
+-> -> 30 `i `uc
+-> -> 82 `i `uc
+-> -> 114 `i `uc
+-> -> 18 `i `uc
+..
+:U ..
+-> -> 57 `i `uc
+-> -> 85 `i `uc
+-> -> 85 `i `uc
+-> -> 85 `i `uc
+-> -> 89 `i `uc
+..
+:U ..
+-> -> 57 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 89 `i `uc
+..
+:U ..
+-> -> 57 `i `uc
+-> -> 85 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 88 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 69 `i `uc
+-> -> 124 `i `uc
+-> -> 65 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 69 `i `uc
+-> -> 125 `i `uc
+-> -> 66 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 69 `i `uc
+-> -> 124 `i `uc
+-> -> 64 `i `uc
+..
+:U ..
+-> -> 125 `i `uc
+-> -> 18 `i `uc
+-> -> 17 `i `uc
+-> -> 18 `i `uc
+-> -> 125 `i `uc
+..
+:U ..
+-> -> 240 `i `uc
+-> -> 40 `i `uc
+-> -> 37 `i `uc
+-> -> 40 `i `uc
+-> -> 240 `i `uc
+..
+:U ..
+-> -> 124 `i `uc
+-> -> 84 `i `uc
+-> -> 85 `i `uc
+-> -> 69 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 32 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 124 `i `uc
+-> -> 84 `i `uc
+..
+:U ..
+-> -> 124 `i `uc
+-> -> 10 `i `uc
+-> -> 9 `i `uc
+-> -> 127 `i `uc
+-> -> 73 `i `uc
+..
+:U ..
+-> -> 50 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 50 `i `uc
+..
+:U ..
+-> -> 58 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 58 `i `uc
+..
+:U ..
+-> -> 50 `i `uc
+-> -> 74 `i `uc
+-> -> 72 `i `uc
+-> -> 72 `i `uc
+-> -> 48 `i `uc
+..
+:U ..
+-> -> 58 `i `uc
+-> -> 65 `i `uc
+-> -> 65 `i `uc
+-> -> 33 `i `uc
+-> -> 122 `i `uc
+..
+:U ..
+-> -> 58 `i `uc
+-> -> 66 `i `uc
+-> -> 64 `i `uc
+-> -> 32 `i `uc
+-> -> 120 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 157 `i `uc
+-> -> 160 `i `uc
+-> -> 160 `i `uc
+-> -> 125 `i `uc
+..
+:U ..
+-> -> 61 `i `uc
+-> -> 66 `i `uc
+-> -> 66 `i `uc
+-> -> 66 `i `uc
+-> -> 61 `i `uc
+..
+:U ..
+-> -> 61 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 61 `i `uc
+..
+:U ..
+-> -> 60 `i `uc
+-> -> 36 `i `uc
+-> -> 255 `i `uc
+-> -> 36 `i `uc
+-> -> 36 `i `uc
+..
+:U ..
+-> -> 72 `i `uc
+-> -> 126 `i `uc
+-> -> 73 `i `uc
+-> -> 67 `i `uc
+-> -> 102 `i `uc
+..
+:U ..
+-> -> 43 `i `uc
+-> -> 47 `i `uc
+-> -> 252 `i `uc
+-> -> 47 `i `uc
+-> -> 43 `i `uc
+..
+:U ..
+-> -> 255 `i `uc
+-> -> 9 `i `uc
+-> -> 41 `i `uc
+-> -> 246 `i `uc
+-> -> 32 `i `uc
+..
+:U ..
+-> -> 192 `i `uc
+-> -> 136 `i `uc
+-> -> 126 `i `uc
+-> -> 9 `i `uc
+-> -> 3 `i `uc
+..
+:U ..
+-> -> 32 `i `uc
+-> -> 84 `i `uc
+-> -> 84 `i `uc
+-> -> 121 `i `uc
+-> -> 65 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 68 `i `uc
+-> -> 125 `i `uc
+-> -> 65 `i `uc
+..
+:U ..
+-> -> 48 `i `uc
+-> -> 72 `i `uc
+-> -> 72 `i `uc
+-> -> 74 `i `uc
+-> -> 50 `i `uc
+..
+:U ..
+-> -> 56 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 34 `i `uc
+-> -> 122 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 122 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 114 `i `uc
+..
+:U ..
+-> -> 125 `i `uc
+-> -> 13 `i `uc
+-> -> 25 `i `uc
+-> -> 49 `i `uc
+-> -> 125 `i `uc
+..
+:U ..
+-> -> 38 `i `uc
+-> -> 41 `i `uc
+-> -> 41 `i `uc
+-> -> 47 `i `uc
+-> -> 40 `i `uc
+..
+:U ..
+-> -> 38 `i `uc
+-> -> 41 `i `uc
+-> -> 41 `i `uc
+-> -> 41 `i `uc
+-> -> 38 `i `uc
+..
+:U ..
+-> -> 48 `i `uc
+-> -> 72 `i `uc
+-> -> 77 `i `uc
+-> -> 64 `i `uc
+-> -> 32 `i `uc
+..
+:U ..
+-> -> 56 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+..
+:U ..
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 56 `i `uc
+..
+:U ..
+-> -> 47 `i `uc
+-> -> 16 `i `uc
+-> -> 200 `i `uc
+-> -> 172 `i `uc
+-> -> 186 `i `uc
+..
+:U ..
+-> -> 47 `i `uc
+-> -> 16 `i `uc
+-> -> 40 `i `uc
+-> -> 52 `i `uc
+-> -> 250 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 123 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 8 `i `uc
+-> -> 20 `i `uc
+-> -> 42 `i `uc
+-> -> 20 `i `uc
+-> -> 34 `i `uc
+..
+:U ..
+-> -> 34 `i `uc
+-> -> 20 `i `uc
+-> -> 42 `i `uc
+-> -> 20 `i `uc
+-> -> 8 `i `uc
+..
+:U ..
+-> -> 85 `i `uc
+-> -> 0 `i `uc
+-> -> 85 `i `uc
+-> -> 0 `i `uc
+-> -> 85 `i `uc
+..
+:U ..
+-> -> 170 `i `uc
+-> -> 85 `i `uc
+-> -> 170 `i `uc
+-> -> 85 `i `uc
+-> -> 170 `i `uc
+..
+:U ..
+-> -> 255 `i `uc
+-> -> 85 `i `uc
+-> -> 255 `i `uc
+-> -> 85 `i `uc
+-> -> 255 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 240 `i `uc
+-> -> 16 `i `uc
+-> -> 240 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 252 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 247 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 244 `i `uc
+-> -> 4 `i `uc
+-> -> 252 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 23 `i `uc
+-> -> 16 `i `uc
+-> -> 31 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 31 `i `uc
+-> -> 16 `i `uc
+-> -> 31 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 31 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 240 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 31 `i `uc
+-> -> 16 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 31 `i `uc
+-> -> 16 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 240 `i `uc
+-> -> 16 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 16 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 255 `i `uc
+-> -> 16 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 20 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 31 `i `uc
+-> -> 16 `i `uc
+-> -> 23 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 252 `i `uc
+-> -> 4 `i `uc
+-> -> 244 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 23 `i `uc
+-> -> 16 `i `uc
+-> -> 23 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 244 `i `uc
+-> -> 4 `i `uc
+-> -> 244 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 247 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 247 `i `uc
+-> -> 0 `i `uc
+-> -> 247 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 23 `i `uc
+-> -> 20 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 31 `i `uc
+-> -> 16 `i `uc
+-> -> 31 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 244 `i `uc
+-> -> 20 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 240 `i `uc
+-> -> 16 `i `uc
+-> -> 240 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 31 `i `uc
+-> -> 16 `i `uc
+-> -> 31 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 31 `i `uc
+-> -> 20 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 252 `i `uc
+-> -> 20 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 240 `i `uc
+-> -> 16 `i `uc
+-> -> 240 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 255 `i `uc
+-> -> 16 `i `uc
+-> -> 255 `i `uc
+..
+:U ..
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 20 `i `uc
+-> -> 255 `i `uc
+-> -> 20 `i `uc
+..
+:U ..
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 31 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 240 `i `uc
+-> -> 16 `i `uc
+..
+:U ..
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+..
+:U ..
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+..
+:U ..
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+..
+:U ..
+-> -> 15 `i `uc
+-> -> 15 `i `uc
+-> -> 15 `i `uc
+-> -> 15 `i `uc
+-> -> 15 `i `uc
+..
+:U ..
+-> -> 56 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 56 `i `uc
+-> -> 68 `i `uc
+..
+:U ..
+-> -> 252 `i `uc
+-> -> 74 `i `uc
+-> -> 74 `i `uc
+-> -> 74 `i `uc
+-> -> 52 `i `uc
+..
+:U ..
+-> -> 126 `i `uc
+-> -> 2 `i `uc
+-> -> 2 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+..
+:U ..
+-> -> 2 `i `uc
+-> -> 126 `i `uc
+-> -> 2 `i `uc
+-> -> 126 `i `uc
+-> -> 2 `i `uc
+..
+:U ..
+-> -> 99 `i `uc
+-> -> 85 `i `uc
+-> -> 73 `i `uc
+-> -> 65 `i `uc
+-> -> 99 `i `uc
+..
+:U ..
+-> -> 56 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 60 `i `uc
+-> -> 4 `i `uc
+..
+:U ..
+-> -> 64 `i `uc
+-> -> 126 `i `uc
+-> -> 32 `i `uc
+-> -> 30 `i `uc
+-> -> 32 `i `uc
+..
+:U ..
+-> -> 6 `i `uc
+-> -> 2 `i `uc
+-> -> 126 `i `uc
+-> -> 2 `i `uc
+-> -> 2 `i `uc
+..
+:U ..
+-> -> 153 `i `uc
+-> -> 165 `i `uc
+-> -> 231 `i `uc
+-> -> 165 `i `uc
+-> -> 153 `i `uc
+..
+:U ..
+-> -> 28 `i `uc
+-> -> 42 `i `uc
+-> -> 73 `i `uc
+-> -> 42 `i `uc
+-> -> 28 `i `uc
+..
+:U ..
+-> -> 76 `i `uc
+-> -> 114 `i `uc
+-> -> 1 `i `uc
+-> -> 114 `i `uc
+-> -> 76 `i `uc
+..
+:U ..
+-> -> 48 `i `uc
+-> -> 74 `i `uc
+-> -> 77 `i `uc
+-> -> 77 `i `uc
+-> -> 48 `i `uc
+..
+:U ..
+-> -> 48 `i `uc
+-> -> 72 `i `uc
+-> -> 120 `i `uc
+-> -> 72 `i `uc
+-> -> 48 `i `uc
+..
+:U ..
+-> -> 188 `i `uc
+-> -> 98 `i `uc
+-> -> 90 `i `uc
+-> -> 70 `i `uc
+-> -> 61 `i `uc
+..
+:U ..
+-> -> 62 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 73 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 126 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 126 `i `uc
+..
+:U ..
+-> -> 42 `i `uc
+-> -> 42 `i `uc
+-> -> 42 `i `uc
+-> -> 42 `i `uc
+-> -> 42 `i `uc
+..
+:U ..
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 95 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+..
+:U ..
+-> -> 64 `i `uc
+-> -> 81 `i `uc
+-> -> 74 `i `uc
+-> -> 68 `i `uc
+-> -> 64 `i `uc
+..
+:U ..
+-> -> 64 `i `uc
+-> -> 68 `i `uc
+-> -> 74 `i `uc
+-> -> 81 `i `uc
+-> -> 64 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 1 `i `uc
+-> -> 3 `i `uc
+..
+:U ..
+-> -> 224 `i `uc
+-> -> 128 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 107 `i `uc
+-> -> 107 `i `uc
+-> -> 8 `i `uc
+..
+:U ..
+-> -> 54 `i `uc
+-> -> 18 `i `uc
+-> -> 54 `i `uc
+-> -> 36 `i `uc
+-> -> 54 `i `uc
+..
+:U ..
+-> -> 6 `i `uc
+-> -> 15 `i `uc
+-> -> 9 `i `uc
+-> -> 15 `i `uc
+-> -> 6 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 24 `i `uc
+-> -> 24 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 48 `i `uc
+-> -> 64 `i `uc
+-> -> 255 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 31 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 30 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 25 `i `uc
+-> -> 29 `i `uc
+-> -> 23 `i `uc
+-> -> 18 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 60 `i `uc
+-> -> 60 `i `uc
+-> -> 60 `i `uc
+-> -> 60 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+..
+]
+"394
+[; ;tft_st7735.c: 394: void WriteCommand(uint8_t cmd)
+[v _WriteCommand `(v ~T0 @X0 1 ef1`uc ]
+"395
+[; ;tft_st7735.c: 395: {
+{
+[e :U _WriteCommand ]
+"394
+[; ;tft_st7735.c: 394: void WriteCommand(uint8_t cmd)
+[v _cmd `uc ~T0 @X0 1 r1 ]
+"395
+[; ;tft_st7735.c: 395: {
+[f ]
+"396
+[; ;tft_st7735.c: 396:     LATDbits.LD2 = 0;
+[e = . . _LATDbits 1 2 -> -> 0 `i `uc ]
+"397
+[; ;tft_st7735.c: 397:     SPI_Write(cmd);
+[e ( _SPI_Write (1 _cmd ]
+"398
+[; ;tft_st7735.c: 398:     LATDbits.LD2 = 1;
+[e = . . _LATDbits 1 2 -> -> 1 `i `uc ]
+"399
+[; ;tft_st7735.c: 399: }
+[e :UE 370 ]
+}
+"401
+[; ;tft_st7735.c: 401: void DisplayInit(const uint8_t *addr)
+[v _DisplayInit `(v ~T0 @X0 1 ef1`*Cuc ]
+"402
+[; ;tft_st7735.c: 402: {
+{
+[e :U _DisplayInit ]
+"401
+[; ;tft_st7735.c: 401: void DisplayInit(const uint8_t *addr)
+[v _addr `*Cuc ~T0 @X0 1 r1 ]
+"402
+[; ;tft_st7735.c: 402: {
+[f ]
+"403
+[; ;tft_st7735.c: 403:     uint8_t numCommands, numArgs;
+[v _numCommands `uc ~T0 @X0 1 a ]
+[v _numArgs `uc ~T0 @X0 1 a ]
+"404
+[; ;tft_st7735.c: 404:     uint16_t ms;
+[v _ms `us ~T0 @X0 1 a ]
+"406
+[; ;tft_st7735.c: 406:     LATDbits.LD0 = 0;
+[e = . . _LATDbits 1 0 -> -> 0 `i `uc ]
+"407
+[; ;tft_st7735.c: 407:     numCommands = *addr++;
+[e = _numCommands *U ++ _addr * -> -> 1 `i `x -> -> # *U _addr `i `x ]
+"408
+[; ;tft_st7735.c: 408:     while(numCommands--)
+[e $U 372  ]
+[e :U 373 ]
+"409
+[; ;tft_st7735.c: 409:     {
+{
+"410
+[; ;tft_st7735.c: 410:         WriteCommand(*addr++);
+[e ( _WriteCommand (1 *U ++ _addr * -> -> 1 `i `x -> -> # *U _addr `i `x ]
+"411
+[; ;tft_st7735.c: 411:         numArgs = *addr++;
+[e = _numArgs *U ++ _addr * -> -> 1 `i `x -> -> # *U _addr `i `x ]
+"412
+[; ;tft_st7735.c: 412:         ms = numArgs & 0x80;
+[e = _ms -> & -> _numArgs `i -> 128 `i `us ]
+"413
+[; ;tft_st7735.c: 413:         numArgs &= ~0x80;
+[e =& _numArgs -> ~ -> 128 `i `uc ]
+"414
+[; ;tft_st7735.c: 414:         while(numArgs--)
+[e $U 375  ]
+[e :U 376 ]
+"415
+[; ;tft_st7735.c: 415:         {
+{
+"416
+[; ;tft_st7735.c: 416:             SPI_Write(*addr++);
+[e ( _SPI_Write (1 *U ++ _addr * -> -> 1 `i `x -> -> # *U _addr `i `x ]
+"417
+[; ;tft_st7735.c: 417:         }
+}
+[e :U 375 ]
+"414
+[; ;tft_st7735.c: 414:         while(numArgs--)
+[e $ != -> -- _numArgs -> -> 1 `i `uc `i -> 0 `i 376  ]
+[e :U 377 ]
+"418
+[; ;tft_st7735.c: 418:         if(ms)
+[e $ ! != -> _ms `ui -> -> 0 `i `ui 378  ]
+"419
+[; ;tft_st7735.c: 419:         {
+{
+"420
+[; ;tft_st7735.c: 420:             ms = *addr++;
+[e = _ms -> *U ++ _addr * -> -> 1 `i `x -> -> # *U _addr `i `x `us ]
+"421
+[; ;tft_st7735.c: 421:             if(ms == 255) ms = 500;
+[e $ ! == -> _ms `ui -> -> 255 `i `ui 379  ]
+[e = _ms -> -> 500 `i `us ]
+[e :U 379 ]
+"422
+[; ;tft_st7735.c: 422:             Delay_ms(ms);
+[e ( _Delay_ms (1 -> _ms `ui ]
+"423
+[; ;tft_st7735.c: 423:         }
+}
+[e :U 378 ]
+"424
+[; ;tft_st7735.c: 424:     }
+}
+[e :U 372 ]
+"408
+[; ;tft_st7735.c: 408:     while(numCommands--)
+[e $ != -> -- _numCommands -> -> 1 `i `uc `i -> 0 `i 373  ]
+[e :U 374 ]
+"425
+[; ;tft_st7735.c: 425:     LATDbits.LD0 = 1;
+[e = . . _LATDbits 1 0 -> -> 1 `i `uc ]
+"426
+[; ;tft_st7735.c: 426: }
+[e :UE 371 ]
+}
+"428
+[; ;tft_st7735.c: 428: void TFT_InitB(void)
+[v _TFT_InitB `(v ~T0 @X0 1 ef ]
+"429
+[; ;tft_st7735.c: 429: {
+{
+[e :U _TFT_InitB ]
+[f ]
+"430
+[; ;tft_st7735.c: 430:     TRISDbits.RD0 = 0;
+[e = . . _TRISDbits 1 0 -> -> 0 `i `uc ]
+"431
+[; ;tft_st7735.c: 431:     TRISDbits.RD2 = 0;
+[e = . . _TRISDbits 1 2 -> -> 0 `i `uc ]
+"432
+[; ;tft_st7735.c: 432:     TRISDbits.RD1 = 0;
+[e = . . _TRISDbits 1 1 -> -> 0 `i `uc ]
+"433
+[; ;tft_st7735.c: 433:     LATDbits.LD1 = 0;
+[e = . . _LATDbits 1 1 -> -> 0 `i `uc ]
+"434
+[; ;tft_st7735.c: 434:     _delay((unsigned long)((10)*(48000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 48000000 `l `d .4000.0 `ul ]
+"435
+[; ;tft_st7735.c: 435:     LATDbits.LD1 = 1;
+[e = . . _LATDbits 1 1 -> -> 1 `i `uc ]
+"436
+[; ;tft_st7735.c: 436:     LATDbits.LD0 = 1;
+[e = . . _LATDbits 1 0 -> -> 1 `i `uc ]
+"437
+[; ;tft_st7735.c: 437:     LATDbits.LD2 = 0;
+[e = . . _LATDbits 1 2 -> -> 0 `i `uc ]
+"438
+[; ;tft_st7735.c: 438:     SPI_Init_Master(0x00, 0x02, 1);
+[e ( _SPI_Init_Master (3 , , -> -> 0 `i `uc -> -> 2 `i `uc -> -> 1 `i `uc ]
+"439
+[; ;tft_st7735.c: 439:     DisplayInit(Bcmd);
+[e ( _DisplayInit (1 &U _Bcmd ]
+"440
+[; ;tft_st7735.c: 440: }
+[e :UE 380 ]
+}
+"443
+[; ;tft_st7735.c: 443: void TFT_ST7735_Init(uint8_t options)
+[v _TFT_ST7735_Init `(v ~T0 @X0 1 ef1`uc ]
+"444
+[; ;tft_st7735.c: 444: {
+{
+[e :U _TFT_ST7735_Init ]
+"443
+[; ;tft_st7735.c: 443: void TFT_ST7735_Init(uint8_t options)
+[v _options `uc ~T0 @X0 1 r1 ]
+"444
+[; ;tft_st7735.c: 444: {
+[f ]
+"445
+[; ;tft_st7735.c: 445:     TRISDbits.RD0 = 0;
+[e = . . _TRISDbits 1 0 -> -> 0 `i `uc ]
+"446
+[; ;tft_st7735.c: 446:     TRISDbits.RD2 = 0;
+[e = . . _TRISDbits 1 2 -> -> 0 `i `uc ]
+"447
+[; ;tft_st7735.c: 447:     TRISDbits.RD1 = 0;
+[e = . . _TRISDbits 1 1 -> -> 0 `i `uc ]
+"448
+[; ;tft_st7735.c: 448:     LATDbits.LD1 = 0;
+[e = . . _LATDbits 1 1 -> -> 0 `i `uc ]
+"449
+[; ;tft_st7735.c: 449:     _delay((unsigned long)((10)*(48000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 48000000 `l `d .4000.0 `ul ]
+"450
+[; ;tft_st7735.c: 450:     LATDbits.LD1 = 1;
+[e = . . _LATDbits 1 1 -> -> 1 `i `uc ]
+"451
+[; ;tft_st7735.c: 451:     LATDbits.LD0 = 1;
+[e = . . _LATDbits 1 0 -> -> 1 `i `uc ]
+"452
+[; ;tft_st7735.c: 452:     LATDbits.LD2 = 0;
+[e = . . _LATDbits 1 2 -> -> 0 `i `uc ]
+"453
+[; ;tft_st7735.c: 453:     SPI_Init_Master(0x00, 0x02, 1);
+[e ( _SPI_Init_Master (3 , , -> -> 0 `i `uc -> -> 2 `i `uc -> -> 1 `i `uc ]
+"455
+[; ;tft_st7735.c: 455:     DisplayInit(Rcmd1);
+[e ( _DisplayInit (1 &U _Rcmd1 ]
+"456
+[; ;tft_st7735.c: 456:     _height = 128;
+[e = __height -> -> 128 `i `uc ]
+"457
+[; ;tft_st7735.c: 457:     _width = 128;
+[e = __width -> -> 128 `i `uc ]
+"458
+[; ;tft_st7735.c: 458:     DisplayInit(Rcmd2green144);
+[e ( _DisplayInit (1 &U _Rcmd2green144 ]
+"459
+[; ;tft_st7735.c: 459:         _colstart = 0;
+[e = __colstart -> -> 0 `i `uc ]
+"460
+[; ;tft_st7735.c: 460:         _rowstart = 0;
+[e = __rowstart -> -> 0 `i `uc ]
+"462
+[; ;tft_st7735.c: 462:     DisplayInit(Rcmd3);
+[e ( _DisplayInit (1 &U _Rcmd3 ]
+"464
+[; ;tft_st7735.c: 464:     if((options == 0x02) || (options == 0x04)){
+[e $ ! || == -> _options `i -> 2 `i == -> _options `i -> 4 `i 382  ]
+{
+"465
+[; ;tft_st7735.c: 465:         LATDbits.LD0 = 0;
+[e = . . _LATDbits 1 0 -> -> 0 `i `uc ]
+"466
+[; ;tft_st7735.c: 466:         WriteCommand(0x36);
+[e ( _WriteCommand (1 -> -> 54 `i `uc ]
+"467
+[; ;tft_st7735.c: 467:         SPI_Write(0xC0);
+[e ( _SPI_Write (1 -> -> 192 `i `uc ]
+"468
+[; ;tft_st7735.c: 468:         LATDbits.LD0 = 1;
+[e = . . _LATDbits 1 0 -> -> 1 `i `uc ]
+"469
+[; ;tft_st7735.c: 469:     }
+}
+[e :U 382 ]
+"470
+[; ;tft_st7735.c: 470:     if(options == 0x05){
+[e $ ! == -> _options `i -> 5 `i 383  ]
+{
+"471
+[; ;tft_st7735.c: 471:         tabcolor = 0x01;
+[e = _tabcolor -> -> 1 `i `uc ]
+"472
+[; ;tft_st7735.c: 472:         TFT_SetRotation(2);
+[e ( _TFT_SetRotation (1 -> -> 2 `i `uc ]
+"473
+[; ;tft_st7735.c: 473:     }
+}
+[e $U 384  ]
+"474
+[; ;tft_st7735.c: 474:     else{
+[e :U 383 ]
+{
+"475
+[; ;tft_st7735.c: 475:         tabcolor = options;
+[e = _tabcolor _options ]
+"476
+[; ;tft_st7735.c: 476:         TFT_SetRotation(0);
+[e ( _TFT_SetRotation (1 -> -> 0 `i `uc ]
+"477
+[; ;tft_st7735.c: 477:     }
+}
+[e :U 384 ]
+"478
+[; ;tft_st7735.c: 478: }
+[e :UE 381 ]
+}
+"480
+[; ;tft_st7735.c: 480: void TFT_DrawPixel(uint8_t x, uint8_t y, uint16_t color)
+[v _TFT_DrawPixel `(v ~T0 @X0 1 ef3`uc`uc`us ]
+"481
+[; ;tft_st7735.c: 481: {
+{
+[e :U _TFT_DrawPixel ]
+"480
+[; ;tft_st7735.c: 480: void TFT_DrawPixel(uint8_t x, uint8_t y, uint16_t color)
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _color `us ~T0 @X0 1 r3 ]
+"481
+[; ;tft_st7735.c: 481: {
+[f ]
+"482
+[; ;tft_st7735.c: 482:     if((x < _width) && (y < _height))
+[e $ ! && < -> _x `i -> __width `i < -> _y `i -> __height `i 386  ]
+"483
+[; ;tft_st7735.c: 483:     {
+{
+"484
+[; ;tft_st7735.c: 484:         LATDbits.LD0 = 0;
+[e = . . _LATDbits 1 0 -> -> 0 `i `uc ]
+"485
+[; ;tft_st7735.c: 485:         SetAddrWindow(x, y, 1, 1);
+[e ( _SetAddrWindow (4 , , , _x _y -> -> 1 `i `uc -> -> 1 `i `uc ]
+"486
+[; ;tft_st7735.c: 486:         SPI_Write(color >> 8);
+[e ( _SPI_Write (1 -> >> -> _color `ui -> 8 `i `uc ]
+"487
+[; ;tft_st7735.c: 487:         SPI_Write(color & 0xFF);
+[e ( _SPI_Write (1 -> & -> _color `ui -> -> 255 `i `ui `uc ]
+"488
+[; ;tft_st7735.c: 488:         LATDbits.LD0 = 1;
+[e = . . _LATDbits 1 0 -> -> 1 `i `uc ]
+"489
+[; ;tft_st7735.c: 489:     }
+}
+[e :U 386 ]
+"490
+[; ;tft_st7735.c: 490: }
+[e :UE 385 ]
+}
+"492
+[; ;tft_st7735.c: 492: void SetAddrWindow(uint8_t x, uint8_t y, uint8_t w, uint8_t h)
+[v _SetAddrWindow `(v ~T0 @X0 1 ef4`uc`uc`uc`uc ]
+"493
+[; ;tft_st7735.c: 493: {
+{
+[e :U _SetAddrWindow ]
+"492
+[; ;tft_st7735.c: 492: void SetAddrWindow(uint8_t x, uint8_t y, uint8_t w, uint8_t h)
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _w `uc ~T0 @X0 1 r3 ]
+[v _h `uc ~T0 @X0 1 r4 ]
+"493
+[; ;tft_st7735.c: 493: {
+[f ]
+"494
+[; ;tft_st7735.c: 494:     x += _xstart;
+[e =+ _x -> __xstart `uc ]
+"495
+[; ;tft_st7735.c: 495:     y += _ystart;
+[e =+ _y -> __ystart `uc ]
+"496
+[; ;tft_st7735.c: 496:     WriteCommand(0x2A);
+[e ( _WriteCommand (1 -> -> 42 `i `uc ]
+"497
+[; ;tft_st7735.c: 497:     SPI_Write(0);
+[e ( _SPI_Write (1 -> -> 0 `i `uc ]
+"498
+[; ;tft_st7735.c: 498:     SPI_Write(x);
+[e ( _SPI_Write (1 _x ]
+"499
+[; ;tft_st7735.c: 499:     SPI_Write(0);
+[e ( _SPI_Write (1 -> -> 0 `i `uc ]
+"500
+[; ;tft_st7735.c: 500:     SPI_Write(x+w-1);
+[e ( _SPI_Write (1 -> - + -> _x `i -> _w `i -> 1 `i `uc ]
+"501
+[; ;tft_st7735.c: 501:     WriteCommand(0x2B);
+[e ( _WriteCommand (1 -> -> 43 `i `uc ]
+"502
+[; ;tft_st7735.c: 502:     SPI_Write(0);
+[e ( _SPI_Write (1 -> -> 0 `i `uc ]
+"503
+[; ;tft_st7735.c: 503:     SPI_Write(y);
+[e ( _SPI_Write (1 _y ]
+"504
+[; ;tft_st7735.c: 504:     SPI_Write(0);
+[e ( _SPI_Write (1 -> -> 0 `i `uc ]
+"505
+[; ;tft_st7735.c: 505:     SPI_Write(y+h-1);
+[e ( _SPI_Write (1 -> - + -> _y `i -> _h `i -> 1 `i `uc ]
+"506
+[; ;tft_st7735.c: 506:     WriteCommand(0x2C);
+[e ( _WriteCommand (1 -> -> 44 `i `uc ]
+"507
+[; ;tft_st7735.c: 507: }
+[e :UE 387 ]
+}
+"509
+[; ;tft_st7735.c: 509: void TFT_SetRotation(uint8_t m)
+[v _TFT_SetRotation `(v ~T0 @X0 1 ef1`uc ]
+"510
+[; ;tft_st7735.c: 510: {
+{
+[e :U _TFT_SetRotation ]
+"509
+[; ;tft_st7735.c: 509: void TFT_SetRotation(uint8_t m)
+[v _m `uc ~T0 @X0 1 r1 ]
+"510
+[; ;tft_st7735.c: 510: {
+[f ]
+"511
+[; ;tft_st7735.c: 511:     uint8_t madctl = 0;
+[v _madctl `uc ~T0 @X0 1 a ]
+[e = _madctl -> -> 0 `i `uc ]
+"512
+[; ;tft_st7735.c: 512:     rotation = m & 3;
+[e = _rotation -> & -> _m `i -> 3 `i `uc ]
+"514
+[; ;tft_st7735.c: 514:     switch(rotation)
+[e $U 390  ]
+"515
+[; ;tft_st7735.c: 515:     {
+{
+"516
+[; ;tft_st7735.c: 516:         case 0:
+[e :U 391 ]
+"517
+[; ;tft_st7735.c: 517:             if((tabcolor == 0x02) || (tabcolor == 0x04)){
+[e $ ! || == -> _tabcolor `i -> 2 `i == -> _tabcolor `i -> 4 `i 392  ]
+{
+"518
+[; ;tft_st7735.c: 518:                 madctl = 0x40 | 0x80 | 0x00;
+[e = _madctl -> | | -> 64 `i -> 128 `i -> 0 `i `uc ]
+"519
+[; ;tft_st7735.c: 519:             }else{
+}
+[e $U 393  ]
+[e :U 392 ]
+{
+"520
+[; ;tft_st7735.c: 520:                 madctl = 0x40 | 0x80 | 0x08;
+[e = _madctl -> | | -> 64 `i -> 128 `i -> 8 `i `uc ]
+"521
+[; ;tft_st7735.c: 521:             }
+}
+[e :U 393 ]
+"523
+[; ;tft_st7735.c: 523:             if(tabcolor == 0x01){
+[e $ ! == -> _tabcolor `i -> 1 `i 394  ]
+{
+"524
+[; ;tft_st7735.c: 524:                 _height = 128;
+[e = __height -> -> 128 `i `uc ]
+"525
+[; ;tft_st7735.c: 525:                 _width = 128;
+[e = __width -> -> 128 `i `uc ]
+"526
+[; ;tft_st7735.c: 526:             }else if (tabcolor == 0x04){
+}
+[e $U 395  ]
+[e :U 394 ]
+[e $ ! == -> _tabcolor `i -> 4 `i 396  ]
+{
+"527
+[; ;tft_st7735.c: 527:                 _height = 160;
+[e = __height -> -> 160 `i `uc ]
+"528
+[; ;tft_st7735.c: 528:                 _width = 80;
+[e = __width -> -> 80 `i `uc ]
+"529
+[; ;tft_st7735.c: 529:             }else{
+}
+[e $U 397  ]
+[e :U 396 ]
+{
+"530
+[; ;tft_st7735.c: 530:                 _height = 160;
+[e = __height -> -> 160 `i `uc ]
+"531
+[; ;tft_st7735.c: 531:                 _width = 128;
+[e = __width -> -> 128 `i `uc ]
+"532
+[; ;tft_st7735.c: 532:             }
+}
+[e :U 397 ]
+[e :U 395 ]
+"533
+[; ;tft_st7735.c: 533:             _xstart = _colstart;
+[e = __xstart __colstart ]
+"534
+[; ;tft_st7735.c: 534:             _ystart = _rowstart;
+[e = __ystart __rowstart ]
+"535
+[; ;tft_st7735.c: 535:             break;
+[e $U 389  ]
+"537
+[; ;tft_st7735.c: 537:         case 1:
+[e :U 398 ]
+"538
+[; ;tft_st7735.c: 538:             if((tabcolor == 0x02) || (tabcolor == 0x04)){
+[e $ ! || == -> _tabcolor `i -> 2 `i == -> _tabcolor `i -> 4 `i 399  ]
+{
+"539
+[; ;tft_st7735.c: 539:                 madctl = 0x80 | 0x20 | 0x00;
+[e = _madctl -> | | -> 128 `i -> 32 `i -> 0 `i `uc ]
+"540
+[; ;tft_st7735.c: 540:             }else{
+}
+[e $U 400  ]
+[e :U 399 ]
+{
+"541
+[; ;tft_st7735.c: 541:                 madctl = 0x80 | 0x20 | 0x08;
+[e = _madctl -> | | -> 128 `i -> 32 `i -> 8 `i `uc ]
+"542
+[; ;tft_st7735.c: 542:             }
+}
+[e :U 400 ]
+"544
+[; ;tft_st7735.c: 544:             if(tabcolor == 0x01){
+[e $ ! == -> _tabcolor `i -> 1 `i 401  ]
+{
+"545
+[; ;tft_st7735.c: 545:                 _width = 128;
+[e = __width -> -> 128 `i `uc ]
+"546
+[; ;tft_st7735.c: 546:                 _height = 128;
+[e = __height -> -> 128 `i `uc ]
+"547
+[; ;tft_st7735.c: 547:             }else if (tabcolor == 0x04){
+}
+[e $U 402  ]
+[e :U 401 ]
+[e $ ! == -> _tabcolor `i -> 4 `i 403  ]
+{
+"548
+[; ;tft_st7735.c: 548:                 _width = 160;
+[e = __width -> -> 160 `i `uc ]
+"549
+[; ;tft_st7735.c: 549:                 _height = 80;
+[e = __height -> -> 80 `i `uc ]
+"550
+[; ;tft_st7735.c: 550:             }else {
+}
+[e $U 404  ]
+[e :U 403 ]
+{
+"551
+[; ;tft_st7735.c: 551:                 _width = 160;
+[e = __width -> -> 160 `i `uc ]
+"552
+[; ;tft_st7735.c: 552:                 _height = 128;
+[e = __height -> -> 128 `i `uc ]
+"553
+[; ;tft_st7735.c: 553:             }
+}
+[e :U 404 ]
+[e :U 402 ]
+"554
+[; ;tft_st7735.c: 554:             _ystart = _colstart;
+[e = __ystart __colstart ]
+"555
+[; ;tft_st7735.c: 555:             _xstart = _rowstart;
+[e = __xstart __rowstart ]
+"556
+[; ;tft_st7735.c: 556:             break;
+[e $U 389  ]
+"558
+[; ;tft_st7735.c: 558:         case 2:
+[e :U 405 ]
+"559
+[; ;tft_st7735.c: 559:             if((tabcolor == 0x02) || (tabcolor == 0x04)){
+[e $ ! || == -> _tabcolor `i -> 2 `i == -> _tabcolor `i -> 4 `i 406  ]
+{
+"560
+[; ;tft_st7735.c: 560:                 madctl = 0x00;
+[e = _madctl -> -> 0 `i `uc ]
+"561
+[; ;tft_st7735.c: 561:             }else{
+}
+[e $U 407  ]
+[e :U 406 ]
+{
+"562
+[; ;tft_st7735.c: 562:                 madctl = 0x08;
+[e = _madctl -> -> 8 `i `uc ]
+"563
+[; ;tft_st7735.c: 563:             }
+}
+[e :U 407 ]
+"565
+[; ;tft_st7735.c: 565:             if(tabcolor == 0x01){
+[e $ ! == -> _tabcolor `i -> 1 `i 408  ]
+{
+"566
+[; ;tft_st7735.c: 566:                 _height = 128;
+[e = __height -> -> 128 `i `uc ]
+"567
+[; ;tft_st7735.c: 567:                 _width = 128;
+[e = __width -> -> 128 `i `uc ]
+"568
+[; ;tft_st7735.c: 568:             }else if (tabcolor == 0x04){
+}
+[e $U 409  ]
+[e :U 408 ]
+[e $ ! == -> _tabcolor `i -> 4 `i 410  ]
+{
+"569
+[; ;tft_st7735.c: 569:                 _height = 160;
+[e = __height -> -> 160 `i `uc ]
+"570
+[; ;tft_st7735.c: 570:                 _width = 80;
+[e = __width -> -> 80 `i `uc ]
+"571
+[; ;tft_st7735.c: 571:             }else{
+}
+[e $U 411  ]
+[e :U 410 ]
+{
+"572
+[; ;tft_st7735.c: 572:                 _height = 160;
+[e = __height -> -> 160 `i `uc ]
+"573
+[; ;tft_st7735.c: 573:                 _width = 128;
+[e = __width -> -> 128 `i `uc ]
+"574
+[; ;tft_st7735.c: 574:             }
+}
+[e :U 411 ]
+[e :U 409 ]
+"575
+[; ;tft_st7735.c: 575:             _xstart = _colstart;
+[e = __xstart __colstart ]
+"576
+[; ;tft_st7735.c: 576:             _ystart = _rowstart;
+[e = __ystart __rowstart ]
+"577
+[; ;tft_st7735.c: 577:             break;
+[e $U 389  ]
+"579
+[; ;tft_st7735.c: 579:         case 3:
+[e :U 412 ]
+"580
+[; ;tft_st7735.c: 580:             if((tabcolor == 0x02) || (tabcolor == 0x04)){
+[e $ ! || == -> _tabcolor `i -> 2 `i == -> _tabcolor `i -> 4 `i 413  ]
+{
+"581
+[; ;tft_st7735.c: 581:                 madctl = 0x40 | 0x20 | 0x00;
+[e = _madctl -> | | -> 64 `i -> 32 `i -> 0 `i `uc ]
+"582
+[; ;tft_st7735.c: 582:             }else{
+}
+[e $U 414  ]
+[e :U 413 ]
+{
+"583
+[; ;tft_st7735.c: 583:                 madctl = 0x40 | 0x20 | 0x08;
+[e = _madctl -> | | -> 64 `i -> 32 `i -> 8 `i `uc ]
+"584
+[; ;tft_st7735.c: 584:             }
+}
+[e :U 414 ]
+"586
+[; ;tft_st7735.c: 586:             if(tabcolor == 0x01){
+[e $ ! == -> _tabcolor `i -> 1 `i 415  ]
+{
+"587
+[; ;tft_st7735.c: 587:                 _width = 128;
+[e = __width -> -> 128 `i `uc ]
+"588
+[; ;tft_st7735.c: 588:                 _height = 128;
+[e = __height -> -> 128 `i `uc ]
+"589
+[; ;tft_st7735.c: 589:             }else if(tabcolor == 0x04){
+}
+[e $U 416  ]
+[e :U 415 ]
+[e $ ! == -> _tabcolor `i -> 4 `i 417  ]
+{
+"590
+[; ;tft_st7735.c: 590:                 _width = 160;
+[e = __width -> -> 160 `i `uc ]
+"591
+[; ;tft_st7735.c: 591:                 _height = 80;
+[e = __height -> -> 80 `i `uc ]
+"592
+[; ;tft_st7735.c: 592:             }else{
+}
+[e $U 418  ]
+[e :U 417 ]
+{
+"593
+[; ;tft_st7735.c: 593:                 _width = 160;
+[e = __width -> -> 160 `i `uc ]
+"594
+[; ;tft_st7735.c: 594:                 _height = 128;
+[e = __height -> -> 128 `i `uc ]
+"595
+[; ;tft_st7735.c: 595:             }
+}
+[e :U 418 ]
+[e :U 416 ]
+"596
+[; ;tft_st7735.c: 596:             _ystart = _colstart;
+[e = __ystart __colstart ]
+"597
+[; ;tft_st7735.c: 597:             _xstart = _rowstart;
+[e = __xstart __rowstart ]
+"598
+[; ;tft_st7735.c: 598:             break;
+[e $U 389  ]
+"599
+[; ;tft_st7735.c: 599:     }
+}
+[e $U 389  ]
+[e :U 390 ]
+[e [\ _rotation , $ -> 0 `i 391
+ , $ -> 1 `i 398
+ , $ -> 2 `i 405
+ , $ -> 3 `i 412
+ 389 ]
+[e :U 389 ]
+"600
+[; ;tft_st7735.c: 600:     LATDbits.LD0 = 0;
+[e = . . _LATDbits 1 0 -> -> 0 `i `uc ]
+"601
+[; ;tft_st7735.c: 601:     WriteCommand(0x36);
+[e ( _WriteCommand (1 -> -> 54 `i `uc ]
+"602
+[; ;tft_st7735.c: 602:     SPI_Write(madctl);
+[e ( _SPI_Write (1 _madctl ]
+"603
+[; ;tft_st7735.c: 603:     LATDbits.LD0 = 1;
+[e = . . _LATDbits 1 0 -> -> 1 `i `uc ]
+"604
+[; ;tft_st7735.c: 604: }
+[e :UE 388 ]
+}
+"606
+[; ;tft_st7735.c: 606: void TFT_DrawHLine(uint8_t x, uint8_t y, uint8_t w, uint16_t color)
+[v _TFT_DrawHLine `(v ~T0 @X0 1 ef4`uc`uc`uc`us ]
+"607
+[; ;tft_st7735.c: 607: {
+{
+[e :U _TFT_DrawHLine ]
+"606
+[; ;tft_st7735.c: 606: void TFT_DrawHLine(uint8_t x, uint8_t y, uint8_t w, uint16_t color)
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _w `uc ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+"607
+[; ;tft_st7735.c: 607: {
+[f ]
+"608
+[; ;tft_st7735.c: 608:     if((x < _width) && (y < _height) && w)
+[e $ ! && && < -> _x `i -> __width `i < -> _y `i -> __height `i != -> _w `i -> 0 `i 420  ]
+"609
+[; ;tft_st7735.c: 609:     {
+{
+"610
+[; ;tft_st7735.c: 610:         uint8_t hi = color >> 8, lo = color;
+[v _hi `uc ~T0 @X0 1 a ]
+[e = _hi -> >> -> _color `ui -> 8 `i `uc ]
+[v _lo `uc ~T0 @X0 1 a ]
+[e = _lo -> _color `uc ]
+"611
+[; ;tft_st7735.c: 611:         if((x >= _width) || (y >= _height))
+[e $ ! || >= -> _x `i -> __width `i >= -> _y `i -> __height `i 421  ]
+"612
+[; ;tft_st7735.c: 612:             return;
+[e $UE 419  ]
+[e :U 421 ]
+"613
+[; ;tft_st7735.c: 613:         if((x + w - 1) >= _width)
+[e $ ! >= - + -> _x `i -> _w `i -> 1 `i -> __width `i 422  ]
+"614
+[; ;tft_st7735.c: 614:             w = _width - x;
+[e = _w -> - -> __width `i -> _x `i `uc ]
+[e :U 422 ]
+"615
+[; ;tft_st7735.c: 615:         LATDbits.LD0 = 0;
+[e = . . _LATDbits 1 0 -> -> 0 `i `uc ]
+"616
+[; ;tft_st7735.c: 616:         SetAddrWindow(x, y, w, 1);
+[e ( _SetAddrWindow (4 , , , _x _y _w -> -> 1 `i `uc ]
+"617
+[; ;tft_st7735.c: 617:         while(w--){
+[e $U 423  ]
+[e :U 424 ]
+{
+"618
+[; ;tft_st7735.c: 618:             SPI_Write(hi);
+[e ( _SPI_Write (1 _hi ]
+"619
+[; ;tft_st7735.c: 619:             SPI_Write(lo);
+[e ( _SPI_Write (1 _lo ]
+"620
+[; ;tft_st7735.c: 620:         }
+}
+[e :U 423 ]
+"617
+[; ;tft_st7735.c: 617:         while(w--){
+[e $ != -> -- _w -> -> 1 `i `uc `i -> 0 `i 424  ]
+[e :U 425 ]
+"621
+[; ;tft_st7735.c: 621:         LATDbits.LD0 = 1;
+[e = . . _LATDbits 1 0 -> -> 1 `i `uc ]
+"622
+[; ;tft_st7735.c: 622:     }
+}
+[e :U 420 ]
+"623
+[; ;tft_st7735.c: 623: }
+[e :UE 419 ]
+}
+"625
+[; ;tft_st7735.c: 625: void TFT_DrawVLine(uint8_t x, uint8_t y, uint8_t h, uint16_t color)
+[v _TFT_DrawVLine `(v ~T0 @X0 1 ef4`uc`uc`uc`us ]
+"626
+[; ;tft_st7735.c: 626: {
+{
+[e :U _TFT_DrawVLine ]
+"625
+[; ;tft_st7735.c: 625: void TFT_DrawVLine(uint8_t x, uint8_t y, uint8_t h, uint16_t color)
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _h `uc ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+"626
+[; ;tft_st7735.c: 626: {
+[f ]
+"627
+[; ;tft_st7735.c: 627:     if((x < _width) && (y < _height) && h)
+[e $ ! && && < -> _x `i -> __width `i < -> _y `i -> __height `i != -> _h `i -> 0 `i 427  ]
+"628
+[; ;tft_st7735.c: 628:     {
+{
+"629
+[; ;tft_st7735.c: 629:         uint8_t hi = color >> 8, lo = color;
+[v _hi `uc ~T0 @X0 1 a ]
+[e = _hi -> >> -> _color `ui -> 8 `i `uc ]
+[v _lo `uc ~T0 @X0 1 a ]
+[e = _lo -> _color `uc ]
+"630
+[; ;tft_st7735.c: 630:         if((y + h - 1) >= _height)
+[e $ ! >= - + -> _y `i -> _h `i -> 1 `i -> __height `i 428  ]
+"631
+[; ;tft_st7735.c: 631:             h = _height - y;
+[e = _h -> - -> __height `i -> _y `i `uc ]
+[e :U 428 ]
+"632
+[; ;tft_st7735.c: 632:         LATDbits.LD0 = 0;
+[e = . . _LATDbits 1 0 -> -> 0 `i `uc ]
+"633
+[; ;tft_st7735.c: 633:         SetAddrWindow(x, y, 1, h);
+[e ( _SetAddrWindow (4 , , , _x _y -> -> 1 `i `uc _h ]
+"634
+[; ;tft_st7735.c: 634:         while(h--){
+[e $U 429  ]
+[e :U 430 ]
+{
+"635
+[; ;tft_st7735.c: 635:             SPI_Write(hi);
+[e ( _SPI_Write (1 _hi ]
+"636
+[; ;tft_st7735.c: 636:             SPI_Write(lo);
+[e ( _SPI_Write (1 _lo ]
+"637
+[; ;tft_st7735.c: 637:         }
+}
+[e :U 429 ]
+"634
+[; ;tft_st7735.c: 634:         while(h--){
+[e $ != -> -- _h -> -> 1 `i `uc `i -> 0 `i 430  ]
+[e :U 431 ]
+"638
+[; ;tft_st7735.c: 638:         LATDbits.LD0 = 1;
+[e = . . _LATDbits 1 0 -> -> 1 `i `uc ]
+"639
+[; ;tft_st7735.c: 639:     }
+}
+[e :U 427 ]
+"640
+[; ;tft_st7735.c: 640: }
+[e :UE 426 ]
+}
+"642
+[; ;tft_st7735.c: 642: void TFT_FillRect(uint8_t x, uint8_t y, uint8_t w, uint8_t h, uint16_t color)
+[v _TFT_FillRect `(v ~T0 @X0 1 ef5`uc`uc`uc`uc`us ]
+"643
+[; ;tft_st7735.c: 643: {
+{
+[e :U _TFT_FillRect ]
+"642
+[; ;tft_st7735.c: 642: void TFT_FillRect(uint8_t x, uint8_t y, uint8_t w, uint8_t h, uint16_t color)
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _w `uc ~T0 @X0 1 r3 ]
+[v _h `uc ~T0 @X0 1 r4 ]
+[v _color `us ~T0 @X0 1 r5 ]
+"643
+[; ;tft_st7735.c: 643: {
+[f ]
+"644
+[; ;tft_st7735.c: 644:     if(w && h)
+[e $ ! && != -> _w `i -> 0 `i != -> _h `i -> 0 `i 433  ]
+"645
+[; ;tft_st7735.c: 645:     {
+{
+"646
+[; ;tft_st7735.c: 646:         uint8_t hi = color >> 8, lo = color;
+[v _hi `uc ~T0 @X0 1 a ]
+[e = _hi -> >> -> _color `ui -> 8 `i `uc ]
+[v _lo `uc ~T0 @X0 1 a ]
+[e = _lo -> _color `uc ]
+"647
+[; ;tft_st7735.c: 647:         if((x >= _width) || (y >= _height))
+[e $ ! || >= -> _x `i -> __width `i >= -> _y `i -> __height `i 434  ]
+"648
+[; ;tft_st7735.c: 648:             return;
+[e $UE 432  ]
+[e :U 434 ]
+"649
+[; ;tft_st7735.c: 649:         if((x + w - 1) >= _width)
+[e $ ! >= - + -> _x `i -> _w `i -> 1 `i -> __width `i 435  ]
+"650
+[; ;tft_st7735.c: 650:             w = _width - x;
+[e = _w -> - -> __width `i -> _x `i `uc ]
+[e :U 435 ]
+"651
+[; ;tft_st7735.c: 651:         if((y + h - 1) >= _height)
+[e $ ! >= - + -> _y `i -> _h `i -> 1 `i -> __height `i 436  ]
+"652
+[; ;tft_st7735.c: 652:             h = _height - y;
+[e = _h -> - -> __height `i -> _y `i `uc ]
+[e :U 436 ]
+"653
+[; ;tft_st7735.c: 653:         LATDbits.LD0 = 0;
+[e = . . _LATDbits 1 0 -> -> 0 `i `uc ]
+"654
+[; ;tft_st7735.c: 654:         SetAddrWindow(x, y, w, h);
+[e ( _SetAddrWindow (4 , , , _x _y _w _h ]
+"655
+[; ;tft_st7735.c: 655:         uint16_t px = (uint16_t)w * h;
+[v _px `us ~T0 @X0 1 a ]
+[e = _px -> * -> -> _w `us `ui -> _h `ui `us ]
+"656
+[; ;tft_st7735.c: 656:         while(px--){
+[e $U 437  ]
+[e :U 438 ]
+{
+"657
+[; ;tft_st7735.c: 657:             SPI_Write(hi);
+[e ( _SPI_Write (1 _hi ]
+"658
+[; ;tft_st7735.c: 658:             SPI_Write(lo);
+[e ( _SPI_Write (1 _lo ]
+"659
+[; ;tft_st7735.c: 659:         }
+}
+[e :U 437 ]
+"656
+[; ;tft_st7735.c: 656:         while(px--){
+[e $ != -> -- _px -> -> 1 `i `us `ui -> -> 0 `i `ui 438  ]
+[e :U 439 ]
+"660
+[; ;tft_st7735.c: 660:         LATDbits.LD0 = 1;
+[e = . . _LATDbits 1 0 -> -> 1 `i `uc ]
+"661
+[; ;tft_st7735.c: 661:     }
+}
+[e :U 433 ]
+"662
+[; ;tft_st7735.c: 662: }
+[e :UE 432 ]
+}
+"664
+[; ;tft_st7735.c: 664: void TFT_FillScreen(uint16_t color)
+[v _TFT_FillScreen `(v ~T0 @X0 1 ef1`us ]
+"665
+[; ;tft_st7735.c: 665: {
+{
+[e :U _TFT_FillScreen ]
+"664
+[; ;tft_st7735.c: 664: void TFT_FillScreen(uint16_t color)
+[v _color `us ~T0 @X0 1 r1 ]
+"665
+[; ;tft_st7735.c: 665: {
+[f ]
+"666
+[; ;tft_st7735.c: 666:     TFT_FillRect(0, 0, _width, _height, color);
+[e ( _TFT_FillRect (4 , , , , -> -> 0 `i `uc -> -> 0 `i `uc __width __height _color ]
+"667
+[; ;tft_st7735.c: 667: }
+[e :UE 440 ]
+}
+"669
+[; ;tft_st7735.c: 669: void TFT_InvertDisplay(_Bool i)
+[v _TFT_InvertDisplay `(v ~T0 @X0 1 ef1`a ]
+"670
+[; ;tft_st7735.c: 670: {
+{
+[e :U _TFT_InvertDisplay ]
+"669
+[; ;tft_st7735.c: 669: void TFT_InvertDisplay(_Bool i)
+[v _i `a ~T0 @X0 1 r1 ]
+"670
+[; ;tft_st7735.c: 670: {
+[f ]
+"671
+[; ;tft_st7735.c: 671:     LATDbits.LD0 = 0;
+[e = . . _LATDbits 1 0 -> -> 0 `i `uc ]
+"672
+[; ;tft_st7735.c: 672:     WriteCommand(i ? 0x21 : 0x20);
+[e ( _WriteCommand (1 -> ? != -> _i `i -> 0 `i : -> 33 `i -> 32 `i `uc ]
+"673
+[; ;tft_st7735.c: 673:     LATDbits.LD0 = 1;
+[e = . . _LATDbits 1 0 -> -> 1 `i `uc ]
+"674
+[; ;tft_st7735.c: 674: }
+[e :UE 441 ]
+}
+"676
+[; ;tft_st7735.c: 676: void TFT_PushColor(uint16_t color)
+[v _TFT_PushColor `(v ~T0 @X0 1 ef1`us ]
+"677
+[; ;tft_st7735.c: 677: {
+{
+[e :U _TFT_PushColor ]
+"676
+[; ;tft_st7735.c: 676: void TFT_PushColor(uint16_t color)
+[v _color `us ~T0 @X0 1 r1 ]
+"677
+[; ;tft_st7735.c: 677: {
+[f ]
+"678
+[; ;tft_st7735.c: 678:     uint8_t hi = color >> 8, lo = color;
+[v _hi `uc ~T0 @X0 1 a ]
+[e = _hi -> >> -> _color `ui -> 8 `i `uc ]
+[v _lo `uc ~T0 @X0 1 a ]
+[e = _lo -> _color `uc ]
+"679
+[; ;tft_st7735.c: 679:     LATDbits.LD0 = 0;
+[e = . . _LATDbits 1 0 -> -> 0 `i `uc ]
+"680
+[; ;tft_st7735.c: 680:     SPI_Write(hi);
+[e ( _SPI_Write (1 _hi ]
+"681
+[; ;tft_st7735.c: 681:     SPI_Write(lo);
+[e ( _SPI_Write (1 _lo ]
+"682
+[; ;tft_st7735.c: 682:     LATDbits.LD0 = 1;
+[e = . . _LATDbits 1 0 -> -> 1 `i `uc ]
+"683
+[; ;tft_st7735.c: 683: }
+[e :UE 442 ]
+}
+"685
+[; ;tft_st7735.c: 685: void Delay_ms(unsigned int d)
+[v _Delay_ms `(v ~T0 @X0 1 ef1`ui ]
+"686
+[; ;tft_st7735.c: 686: {
+{
+[e :U _Delay_ms ]
+"685
+[; ;tft_st7735.c: 685: void Delay_ms(unsigned int d)
+[v _d `ui ~T0 @X0 1 r1 ]
+"686
+[; ;tft_st7735.c: 686: {
+[f ]
+"687
+[; ;tft_st7735.c: 687:     for(unsigned int i=0; i<d; i++)
+{
+[v _i `ui ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `ui ]
+[e $U 447  ]
+[e :U 444 ]
+"688
+[; ;tft_st7735.c: 688:     {
+{
+"689
+[; ;tft_st7735.c: 689:         _delay((unsigned long)((1)*(48000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 48000000 `l `d .4000.0 `ul ]
+"690
+[; ;tft_st7735.c: 690:     }
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e :U 447 ]
+[e $ < _i _d 444  ]
+[e :U 445 ]
+}
+"691
+[; ;tft_st7735.c: 691: }
+[e :UE 443 ]
+}
+"693
+[; ;tft_st7735.c: 693: void WriteLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, uint16_t color)
+[v _WriteLine `(v ~T0 @X0 1 ef5`us`us`us`us`us ]
+"694
+[; ;tft_st7735.c: 694: {
+{
+[e :U _WriteLine ]
+"693
+[; ;tft_st7735.c: 693: void WriteLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, uint16_t color)
+[v _x0 `us ~T0 @X0 1 r1 ]
+[v _y0 `us ~T0 @X0 1 r2 ]
+[v _x1 `us ~T0 @X0 1 r3 ]
+[v _y1 `us ~T0 @X0 1 r4 ]
+[v _color `us ~T0 @X0 1 r5 ]
+"694
+[; ;tft_st7735.c: 694: {
+[f ]
+"695
+[; ;tft_st7735.c: 695:     _Bool steep = abs((int16_t)(y1 - y0)) > abs((int16_t)(x1 - x0));
+[v _steep `a ~T0 @X0 1 a ]
+[e = _steep -> -> > ( _abs (1 -> -> - -> _y1 `ui -> _y0 `ui `s `i ( _abs (1 -> -> - -> _x1 `ui -> _x0 `ui `s `i `i `a ]
+"696
+[; ;tft_st7735.c: 696:     if(steep){
+[e $ ! != -> _steep `i -> 0 `i 449  ]
+{
+"697
+[; ;tft_st7735.c: 697:         { int16_t t = x0; x0 = y0; y0 = t; };
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _x0 `s ]
+[e = _x0 _y0 ]
+[e = _y0 -> _t `us ]
+}
+"698
+[; ;tft_st7735.c: 698:         { int16_t t = x1; x1 = y1; y1 = t; };
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _x1 `s ]
+[e = _x1 _y1 ]
+[e = _y1 -> _t `us ]
+}
+"699
+[; ;tft_st7735.c: 699:     }
+}
+[e :U 449 ]
+"700
+[; ;tft_st7735.c: 700:     if(x0 > x1){
+[e $ ! > -> _x0 `ui -> _x1 `ui 450  ]
+{
+"701
+[; ;tft_st7735.c: 701:         { int16_t t = x0; x0 = x1; x1 = t; };
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _x0 `s ]
+[e = _x0 _x1 ]
+[e = _x1 -> _t `us ]
+}
+"702
+[; ;tft_st7735.c: 702:         { int16_t t = y0; y0 = y1; y1 = t; };
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _y0 `s ]
+[e = _y0 _y1 ]
+[e = _y1 -> _t `us ]
+}
+"703
+[; ;tft_st7735.c: 703:     }
+}
+[e :U 450 ]
+"704
+[; ;tft_st7735.c: 704:     int16_t dx, dy;
+[v _dx `s ~T0 @X0 1 a ]
+[v _dy `s ~T0 @X0 1 a ]
+"705
+[; ;tft_st7735.c: 705:     dx = x1 - x0;
+[e = _dx -> - -> _x1 `ui -> _x0 `ui `s ]
+"706
+[; ;tft_st7735.c: 706:     dy = abs((int16_t)(y1 - y0));
+[e = _dy -> ( _abs (1 -> -> - -> _y1 `ui -> _y0 `ui `s `i `s ]
+"707
+[; ;tft_st7735.c: 707:     int16_t err = dx / 2;
+[v _err `s ~T0 @X0 1 a ]
+[e = _err -> / -> _dx `i -> 2 `i `s ]
+"708
+[; ;tft_st7735.c: 708:     int16_t ystep;
+[v _ystep `s ~T0 @X0 1 a ]
+"709
+[; ;tft_st7735.c: 709:     if(y0 < y1){
+[e $ ! < -> _y0 `ui -> _y1 `ui 451  ]
+{
+"710
+[; ;tft_st7735.c: 710:         ystep = 1;
+[e = _ystep -> -> 1 `i `s ]
+"711
+[; ;tft_st7735.c: 711:     }else {
+}
+[e $U 452  ]
+[e :U 451 ]
+{
+"712
+[; ;tft_st7735.c: 712:         ystep = -1;
+[e = _ystep -> -U -> 1 `i `s ]
+"713
+[; ;tft_st7735.c: 713:     }
+}
+[e :U 452 ]
+"714
+[; ;tft_st7735.c: 714:     for(; x0<=x1; x0++)
+{
+[e $U 456  ]
+[e :U 453 ]
+"715
+[; ;tft_st7735.c: 715:     {
+{
+"716
+[; ;tft_st7735.c: 716:         if(steep){
+[e $ ! != -> _steep `i -> 0 `i 457  ]
+{
+"717
+[; ;tft_st7735.c: 717:             TFT_DrawPixel(y0, x0, color);
+[e ( _TFT_DrawPixel (3 , , -> _y0 `uc -> _x0 `uc _color ]
+"718
+[; ;tft_st7735.c: 718:         }else{
+}
+[e $U 458  ]
+[e :U 457 ]
+{
+"719
+[; ;tft_st7735.c: 719:             TFT_DrawPixel(x0, y0, color);
+[e ( _TFT_DrawPixel (3 , , -> _x0 `uc -> _y0 `uc _color ]
+"720
+[; ;tft_st7735.c: 720:         }
+}
+[e :U 458 ]
+"721
+[; ;tft_st7735.c: 721:         err -= dy;
+[e =- _err -> _dy `s ]
+"722
+[; ;tft_st7735.c: 722:         if (err < 0){
+[e $ ! < -> _err `i -> 0 `i 459  ]
+{
+"723
+[; ;tft_st7735.c: 723:             y0 += ystep;
+[e =+ _y0 -> _ystep `us ]
+"724
+[; ;tft_st7735.c: 724:             err += dx;
+[e =+ _err -> _dx `s ]
+"725
+[; ;tft_st7735.c: 725:         }
+}
+[e :U 459 ]
+"726
+[; ;tft_st7735.c: 726:     }
+}
+[e ++ _x0 -> -> 1 `i `us ]
+[e :U 456 ]
+[e $ <= -> _x0 `ui -> _x1 `ui 453  ]
+[e :U 454 ]
+}
+"727
+[; ;tft_st7735.c: 727: }
+[e :UE 448 ]
+}
+"729
+[; ;tft_st7735.c: 729: void TFT_DrawLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, uint16_t color)
+[v _TFT_DrawLine `(v ~T0 @X0 1 ef5`us`us`us`us`us ]
+"730
+[; ;tft_st7735.c: 730: {
+{
+[e :U _TFT_DrawLine ]
+"729
+[; ;tft_st7735.c: 729: void TFT_DrawLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, uint16_t color)
+[v _x0 `us ~T0 @X0 1 r1 ]
+[v _y0 `us ~T0 @X0 1 r2 ]
+[v _x1 `us ~T0 @X0 1 r3 ]
+[v _y1 `us ~T0 @X0 1 r4 ]
+[v _color `us ~T0 @X0 1 r5 ]
+"730
+[; ;tft_st7735.c: 730: {
+[f ]
+"731
+[; ;tft_st7735.c: 731:     if(x0 == x1){
+[e $ ! == -> _x0 `ui -> _x1 `ui 461  ]
+{
+"732
+[; ;tft_st7735.c: 732:         if(y0 > y1) { int16_t t = y0; y0 = y1; y1 = t; };
+[e $ ! > -> _y0 `ui -> _y1 `ui 462  ]
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _y0 `s ]
+[e = _y0 _y1 ]
+[e = _y1 -> _t `us ]
+}
+[e :U 462 ]
+"733
+[; ;tft_st7735.c: 733:         TFT_DrawVLine(x0, y0, y1 - y0 + 1, color);
+[e ( _TFT_DrawVLine (4 , , , -> _x0 `uc -> _y0 `uc -> + - -> _y1 `ui -> _y0 `ui -> -> 1 `i `ui `uc _color ]
+"734
+[; ;tft_st7735.c: 734:     }else if(y0 == y1){
+}
+[e $U 463  ]
+[e :U 461 ]
+[e $ ! == -> _y0 `ui -> _y1 `ui 464  ]
+{
+"735
+[; ;tft_st7735.c: 735:         if(x0 > x1) { int16_t t = x0; x0 = x1; x1 = t; };
+[e $ ! > -> _x0 `ui -> _x1 `ui 465  ]
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _x0 `s ]
+[e = _x0 _x1 ]
+[e = _x1 -> _t `us ]
+}
+[e :U 465 ]
+"736
+[; ;tft_st7735.c: 736:         TFT_DrawHLine(x0, y0, x1 - x0 + 1, color);
+[e ( _TFT_DrawHLine (4 , , , -> _x0 `uc -> _y0 `uc -> + - -> _x1 `ui -> _x0 `ui -> -> 1 `i `ui `uc _color ]
+"737
+[; ;tft_st7735.c: 737:     }else{
+}
+[e $U 466  ]
+[e :U 464 ]
+{
+"738
+[; ;tft_st7735.c: 738:         WriteLine(x0, y0, x1, y1, color);
+[e ( _WriteLine (4 , , , , _x0 _y0 _x1 _y1 _color ]
+"739
+[; ;tft_st7735.c: 739:     }
+}
+[e :U 466 ]
+[e :U 463 ]
+"740
+[; ;tft_st7735.c: 740: }
+[e :UE 460 ]
+}
+"742
+[; ;tft_st7735.c: 742: void TFT_DrawCircle(uint16_t x0, uint16_t y0, uint16_t r, uint16_t color)
+[v _TFT_DrawCircle `(v ~T0 @X0 1 ef4`us`us`us`us ]
+"743
+[; ;tft_st7735.c: 743: {
+{
+[e :U _TFT_DrawCircle ]
+"742
+[; ;tft_st7735.c: 742: void TFT_DrawCircle(uint16_t x0, uint16_t y0, uint16_t r, uint16_t color)
+[v _x0 `us ~T0 @X0 1 r1 ]
+[v _y0 `us ~T0 @X0 1 r2 ]
+[v _r `us ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+"743
+[; ;tft_st7735.c: 743: {
+[f ]
+"744
+[; ;tft_st7735.c: 744:     int16_t f = 1 - r;
+[v _f `s ~T0 @X0 1 a ]
+[e = _f -> - -> -> 1 `i `ui -> _r `ui `s ]
+"745
+[; ;tft_st7735.c: 745:     int16_t ddF_x = 1;
+[v _ddF_x `s ~T0 @X0 1 a ]
+[e = _ddF_x -> -> 1 `i `s ]
+"746
+[; ;tft_st7735.c: 746:     int16_t ddF_y = -2 * r;
+[v _ddF_y `s ~T0 @X0 1 a ]
+[e = _ddF_y -> * -> -U -> 2 `i `ui -> _r `ui `s ]
+"747
+[; ;tft_st7735.c: 747:     int16_t x = 0;
+[v _x `s ~T0 @X0 1 a ]
+[e = _x -> -> 0 `i `s ]
+"748
+[; ;tft_st7735.c: 748:     int16_t y = r;
+[v _y `s ~T0 @X0 1 a ]
+[e = _y -> _r `s ]
+"749
+[; ;tft_st7735.c: 749:     TFT_DrawPixel(x0 , y0+r, color);
+[e ( _TFT_DrawPixel (3 , , -> _x0 `uc -> + -> _y0 `ui -> _r `ui `uc _color ]
+"750
+[; ;tft_st7735.c: 750:     TFT_DrawPixel(x0 , y0-r, color);
+[e ( _TFT_DrawPixel (3 , , -> _x0 `uc -> - -> _y0 `ui -> _r `ui `uc _color ]
+"751
+[; ;tft_st7735.c: 751:     TFT_DrawPixel(x0+r, y0 , color);
+[e ( _TFT_DrawPixel (3 , , -> + -> _x0 `ui -> _r `ui `uc -> _y0 `uc _color ]
+"752
+[; ;tft_st7735.c: 752:     TFT_DrawPixel(x0-r, y0 , color);
+[e ( _TFT_DrawPixel (3 , , -> - -> _x0 `ui -> _r `ui `uc -> _y0 `uc _color ]
+"754
+[; ;tft_st7735.c: 754:     while(x<y){
+[e $U 468  ]
+[e :U 469 ]
+{
+"755
+[; ;tft_st7735.c: 755:         if (f >= 0) {
+[e $ ! >= -> _f `i -> 0 `i 471  ]
+{
+"756
+[; ;tft_st7735.c: 756:             y--;
+[e -- _y -> -> 1 `i `s ]
+"757
+[; ;tft_st7735.c: 757:             ddF_y += 2;
+[e =+ _ddF_y -> -> 2 `i `s ]
+"758
+[; ;tft_st7735.c: 758:             f += ddF_y;
+[e =+ _f -> _ddF_y `s ]
+"759
+[; ;tft_st7735.c: 759:         }
+}
+[e :U 471 ]
+"760
+[; ;tft_st7735.c: 760:         x++;
+[e ++ _x -> -> 1 `i `s ]
+"761
+[; ;tft_st7735.c: 761:         ddF_x += 2;
+[e =+ _ddF_x -> -> 2 `i `s ]
+"762
+[; ;tft_st7735.c: 762:         f += ddF_x;
+[e =+ _f -> _ddF_x `s ]
+"763
+[; ;tft_st7735.c: 763:         TFT_DrawPixel(x0 + x, y0 + y, color);
+[e ( _TFT_DrawPixel (3 , , -> + -> _x0 `ui -> _x `ui `uc -> + -> _y0 `ui -> _y `ui `uc _color ]
+"764
+[; ;tft_st7735.c: 764:         TFT_DrawPixel(x0 - x, y0 + y, color);
+[e ( _TFT_DrawPixel (3 , , -> - -> _x0 `ui -> _x `ui `uc -> + -> _y0 `ui -> _y `ui `uc _color ]
+"765
+[; ;tft_st7735.c: 765:         TFT_DrawPixel(x0 + x, y0 - y, color);
+[e ( _TFT_DrawPixel (3 , , -> + -> _x0 `ui -> _x `ui `uc -> - -> _y0 `ui -> _y `ui `uc _color ]
+"766
+[; ;tft_st7735.c: 766:         TFT_DrawPixel(x0 - x, y0 - y, color);
+[e ( _TFT_DrawPixel (3 , , -> - -> _x0 `ui -> _x `ui `uc -> - -> _y0 `ui -> _y `ui `uc _color ]
+"767
+[; ;tft_st7735.c: 767:         TFT_DrawPixel(x0 + y, y0 + x, color);
+[e ( _TFT_DrawPixel (3 , , -> + -> _x0 `ui -> _y `ui `uc -> + -> _y0 `ui -> _x `ui `uc _color ]
+"768
+[; ;tft_st7735.c: 768:         TFT_DrawPixel(x0 - y, y0 + x, color);
+[e ( _TFT_DrawPixel (3 , , -> - -> _x0 `ui -> _y `ui `uc -> + -> _y0 `ui -> _x `ui `uc _color ]
+"769
+[; ;tft_st7735.c: 769:         TFT_DrawPixel(x0 + y, y0 - x, color);
+[e ( _TFT_DrawPixel (3 , , -> + -> _x0 `ui -> _y `ui `uc -> - -> _y0 `ui -> _x `ui `uc _color ]
+"770
+[; ;tft_st7735.c: 770:         TFT_DrawPixel(x0 - y, y0 - x, color);
+[e ( _TFT_DrawPixel (3 , , -> - -> _x0 `ui -> _y `ui `uc -> - -> _y0 `ui -> _x `ui `uc _color ]
+"771
+[; ;tft_st7735.c: 771:     }
+}
+[e :U 468 ]
+"754
+[; ;tft_st7735.c: 754:     while(x<y){
+[e $ < -> _x `i -> _y `i 469  ]
+[e :U 470 ]
+"772
+[; ;tft_st7735.c: 772: }
+[e :UE 467 ]
+}
+"774
+[; ;tft_st7735.c: 774: void TFT_DrawCircleHelper(uint16_t x0, uint16_t y0, uint16_t r, uint8_t cornername, uint16_t color)
+[v _TFT_DrawCircleHelper `(v ~T0 @X0 1 ef5`us`us`us`uc`us ]
+"775
+[; ;tft_st7735.c: 775: {
+{
+[e :U _TFT_DrawCircleHelper ]
+"774
+[; ;tft_st7735.c: 774: void TFT_DrawCircleHelper(uint16_t x0, uint16_t y0, uint16_t r, uint8_t cornername, uint16_t color)
+[v _x0 `us ~T0 @X0 1 r1 ]
+[v _y0 `us ~T0 @X0 1 r2 ]
+[v _r `us ~T0 @X0 1 r3 ]
+[v _cornername `uc ~T0 @X0 1 r4 ]
+[v _color `us ~T0 @X0 1 r5 ]
+"775
+[; ;tft_st7735.c: 775: {
+[f ]
+"776
+[; ;tft_st7735.c: 776:     int16_t f = 1 - r;
+[v _f `s ~T0 @X0 1 a ]
+[e = _f -> - -> -> 1 `i `ui -> _r `ui `s ]
+"777
+[; ;tft_st7735.c: 777:     int16_t ddF_x = 1;
+[v _ddF_x `s ~T0 @X0 1 a ]
+[e = _ddF_x -> -> 1 `i `s ]
+"778
+[; ;tft_st7735.c: 778:     int16_t ddF_y = -2 * r;
+[v _ddF_y `s ~T0 @X0 1 a ]
+[e = _ddF_y -> * -> -U -> 2 `i `ui -> _r `ui `s ]
+"779
+[; ;tft_st7735.c: 779:     int16_t x = 0;
+[v _x `s ~T0 @X0 1 a ]
+[e = _x -> -> 0 `i `s ]
+"780
+[; ;tft_st7735.c: 780:     int16_t y = r;
+[v _y `s ~T0 @X0 1 a ]
+[e = _y -> _r `s ]
+"781
+[; ;tft_st7735.c: 781:     while (x<y) {
+[e $U 473  ]
+[e :U 474 ]
+{
+"782
+[; ;tft_st7735.c: 782:         if (f >= 0) {
+[e $ ! >= -> _f `i -> 0 `i 476  ]
+{
+"783
+[; ;tft_st7735.c: 783:             y--;
+[e -- _y -> -> 1 `i `s ]
+"784
+[; ;tft_st7735.c: 784:             ddF_y += 2;
+[e =+ _ddF_y -> -> 2 `i `s ]
+"785
+[; ;tft_st7735.c: 785:             f += ddF_y;
+[e =+ _f -> _ddF_y `s ]
+"786
+[; ;tft_st7735.c: 786:         }
+}
+[e :U 476 ]
+"787
+[; ;tft_st7735.c: 787:         x++;
+[e ++ _x -> -> 1 `i `s ]
+"788
+[; ;tft_st7735.c: 788:         ddF_x += 2;
+[e =+ _ddF_x -> -> 2 `i `s ]
+"789
+[; ;tft_st7735.c: 789:         f += ddF_x;
+[e =+ _f -> _ddF_x `s ]
+"790
+[; ;tft_st7735.c: 790:         if(cornername & 0x4) {
+[e $ ! != & -> _cornername `i -> 4 `i -> 0 `i 477  ]
+{
+"791
+[; ;tft_st7735.c: 791:             TFT_DrawPixel(x0 + x, y0 + y, color);
+[e ( _TFT_DrawPixel (3 , , -> + -> _x0 `ui -> _x `ui `uc -> + -> _y0 `ui -> _y `ui `uc _color ]
+"792
+[; ;tft_st7735.c: 792:             TFT_DrawPixel(x0 + y, y0 + x, color);
+[e ( _TFT_DrawPixel (3 , , -> + -> _x0 `ui -> _y `ui `uc -> + -> _y0 `ui -> _x `ui `uc _color ]
+"793
+[; ;tft_st7735.c: 793:         }
+}
+[e :U 477 ]
+"794
+[; ;tft_st7735.c: 794:         if(cornername & 0x2) {
+[e $ ! != & -> _cornername `i -> 2 `i -> 0 `i 478  ]
+{
+"795
+[; ;tft_st7735.c: 795:             TFT_DrawPixel(x0 + x, y0 - y, color);
+[e ( _TFT_DrawPixel (3 , , -> + -> _x0 `ui -> _x `ui `uc -> - -> _y0 `ui -> _y `ui `uc _color ]
+"796
+[; ;tft_st7735.c: 796:             TFT_DrawPixel(x0 + y, y0 - x, color);
+[e ( _TFT_DrawPixel (3 , , -> + -> _x0 `ui -> _y `ui `uc -> - -> _y0 `ui -> _x `ui `uc _color ]
+"797
+[; ;tft_st7735.c: 797:         }
+}
+[e :U 478 ]
+"798
+[; ;tft_st7735.c: 798:         if(cornername & 0x8) {
+[e $ ! != & -> _cornername `i -> 8 `i -> 0 `i 479  ]
+{
+"799
+[; ;tft_st7735.c: 799:             TFT_DrawPixel(x0 - y, y0 + x, color);
+[e ( _TFT_DrawPixel (3 , , -> - -> _x0 `ui -> _y `ui `uc -> + -> _y0 `ui -> _x `ui `uc _color ]
+"800
+[; ;tft_st7735.c: 800:             TFT_DrawPixel(x0 - x, y0 + y, color);
+[e ( _TFT_DrawPixel (3 , , -> - -> _x0 `ui -> _x `ui `uc -> + -> _y0 `ui -> _y `ui `uc _color ]
+"801
+[; ;tft_st7735.c: 801:         }
+}
+[e :U 479 ]
+"802
+[; ;tft_st7735.c: 802:         if(cornername & 0x1) {
+[e $ ! != & -> _cornername `i -> 1 `i -> 0 `i 480  ]
+{
+"803
+[; ;tft_st7735.c: 803:             TFT_DrawPixel(x0 - y, y0 - x, color);
+[e ( _TFT_DrawPixel (3 , , -> - -> _x0 `ui -> _y `ui `uc -> - -> _y0 `ui -> _x `ui `uc _color ]
+"804
+[; ;tft_st7735.c: 804:             TFT_DrawPixel(x0 - x, y0 - y, color);
+[e ( _TFT_DrawPixel (3 , , -> - -> _x0 `ui -> _x `ui `uc -> - -> _y0 `ui -> _y `ui `uc _color ]
+"805
+[; ;tft_st7735.c: 805:         }
+}
+[e :U 480 ]
+"806
+[; ;tft_st7735.c: 806:     }
+}
+[e :U 473 ]
+"781
+[; ;tft_st7735.c: 781:     while (x<y) {
+[e $ < -> _x `i -> _y `i 474  ]
+[e :U 475 ]
+"807
+[; ;tft_st7735.c: 807: }
+[e :UE 472 ]
+}
+"809
+[; ;tft_st7735.c: 809: void TFT_FillCircle(uint16_t x0, uint16_t y0, uint16_t r, uint16_t color)
+[v _TFT_FillCircle `(v ~T0 @X0 1 ef4`us`us`us`us ]
+"810
+[; ;tft_st7735.c: 810: {
+{
+[e :U _TFT_FillCircle ]
+"809
+[; ;tft_st7735.c: 809: void TFT_FillCircle(uint16_t x0, uint16_t y0, uint16_t r, uint16_t color)
+[v _x0 `us ~T0 @X0 1 r1 ]
+[v _y0 `us ~T0 @X0 1 r2 ]
+[v _r `us ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+"810
+[; ;tft_st7735.c: 810: {
+[f ]
+"811
+[; ;tft_st7735.c: 811:     TFT_DrawVLine(x0, y0-r, 2*r+1, color);
+[e ( _TFT_DrawVLine (4 , , , -> _x0 `uc -> - -> _y0 `ui -> _r `ui `uc -> + * -> -> 2 `i `ui -> _r `ui -> -> 1 `i `ui `uc _color ]
+"812
+[; ;tft_st7735.c: 812:     TFT_FillCircleHelper(x0, y0, r, 3, 0, color);
+[e ( _TFT_FillCircleHelper (4 , , , , , _x0 _y0 _r -> -> 3 `i `uc -> -> 0 `i `us _color ]
+"813
+[; ;tft_st7735.c: 813: }
+[e :UE 481 ]
+}
+"815
+[; ;tft_st7735.c: 815: void TFT_FillCircleHelper(uint16_t x0, uint16_t y0, uint16_t r, uint8_t corners, uint16_t delta, uint16_t color)
+[v _TFT_FillCircleHelper `(v ~T0 @X0 1 ef6`us`us`us`uc`us`us ]
+"816
+[; ;tft_st7735.c: 816: {
+{
+[e :U _TFT_FillCircleHelper ]
+"815
+[; ;tft_st7735.c: 815: void TFT_FillCircleHelper(uint16_t x0, uint16_t y0, uint16_t r, uint8_t corners, uint16_t delta, uint16_t color)
+[v _x0 `us ~T0 @X0 1 r1 ]
+[v _y0 `us ~T0 @X0 1 r2 ]
+[v _r `us ~T0 @X0 1 r3 ]
+[v _corners `uc ~T0 @X0 1 r4 ]
+[v _delta `us ~T0 @X0 1 r5 ]
+[v _color `us ~T0 @X0 1 r6 ]
+"816
+[; ;tft_st7735.c: 816: {
+[f ]
+"817
+[; ;tft_st7735.c: 817:     int16_t f = 1 - r;
+[v _f `s ~T0 @X0 1 a ]
+[e = _f -> - -> -> 1 `i `ui -> _r `ui `s ]
+"818
+[; ;tft_st7735.c: 818:     int16_t ddF_x = 1;
+[v _ddF_x `s ~T0 @X0 1 a ]
+[e = _ddF_x -> -> 1 `i `s ]
+"819
+[; ;tft_st7735.c: 819:     int16_t ddF_y = -2 * r;
+[v _ddF_y `s ~T0 @X0 1 a ]
+[e = _ddF_y -> * -> -U -> 2 `i `ui -> _r `ui `s ]
+"820
+[; ;tft_st7735.c: 820:     int16_t x = 0;
+[v _x `s ~T0 @X0 1 a ]
+[e = _x -> -> 0 `i `s ]
+"821
+[; ;tft_st7735.c: 821:     int16_t y = r;
+[v _y `s ~T0 @X0 1 a ]
+[e = _y -> _r `s ]
+"822
+[; ;tft_st7735.c: 822:     int16_t px = x;
+[v _px `s ~T0 @X0 1 a ]
+[e = _px _x ]
+"823
+[; ;tft_st7735.c: 823:     int16_t py = y;
+[v _py `s ~T0 @X0 1 a ]
+[e = _py _y ]
+"824
+[; ;tft_st7735.c: 824:     delta++;
+[e ++ _delta -> -> 1 `i `us ]
+"825
+[; ;tft_st7735.c: 825:     while(x < y) {
+[e $U 483  ]
+[e :U 484 ]
+{
+"826
+[; ;tft_st7735.c: 826:         if (f >= 0) {
+[e $ ! >= -> _f `i -> 0 `i 486  ]
+{
+"827
+[; ;tft_st7735.c: 827:             y--;
+[e -- _y -> -> 1 `i `s ]
+"828
+[; ;tft_st7735.c: 828:             ddF_y += 2;
+[e =+ _ddF_y -> -> 2 `i `s ]
+"829
+[; ;tft_st7735.c: 829:             f += ddF_y;
+[e =+ _f -> _ddF_y `s ]
+"830
+[; ;tft_st7735.c: 830:         }
+}
+[e :U 486 ]
+"831
+[; ;tft_st7735.c: 831:         x++;
+[e ++ _x -> -> 1 `i `s ]
+"832
+[; ;tft_st7735.c: 832:         ddF_x += 2;
+[e =+ _ddF_x -> -> 2 `i `s ]
+"833
+[; ;tft_st7735.c: 833:         f += ddF_x;
+[e =+ _f -> _ddF_x `s ]
+"834
+[; ;tft_st7735.c: 834:         if(x < (y + 1)){
+[e $ ! < -> _x `i + -> _y `i -> 1 `i 487  ]
+{
+"835
+[; ;tft_st7735.c: 835:             if(corners & 1) TFT_DrawVLine(x0+x, y0-y, 2*y+delta, color);
+[e $ ! != & -> _corners `i -> 1 `i -> 0 `i 488  ]
+[e ( _TFT_DrawVLine (4 , , , -> + -> _x0 `ui -> _x `ui `uc -> - -> _y0 `ui -> _y `ui `uc -> + -> * -> 2 `i -> _y `i `ui -> _delta `ui `uc _color ]
+[e :U 488 ]
+"836
+[; ;tft_st7735.c: 836:             if(corners & 2) TFT_DrawVLine(x0-x, y0-y, 2*y+delta, color);
+[e $ ! != & -> _corners `i -> 2 `i -> 0 `i 489  ]
+[e ( _TFT_DrawVLine (4 , , , -> - -> _x0 `ui -> _x `ui `uc -> - -> _y0 `ui -> _y `ui `uc -> + -> * -> 2 `i -> _y `i `ui -> _delta `ui `uc _color ]
+[e :U 489 ]
+"837
+[; ;tft_st7735.c: 837:         }
+}
+[e :U 487 ]
+"838
+[; ;tft_st7735.c: 838:         if(y != py){
+[e $ ! != -> _y `i -> _py `i 490  ]
+{
+"839
+[; ;tft_st7735.c: 839:             if(corners & 1) TFT_DrawVLine(x0+py, y0-px, 2*px+delta, color);
+[e $ ! != & -> _corners `i -> 1 `i -> 0 `i 491  ]
+[e ( _TFT_DrawVLine (4 , , , -> + -> _x0 `ui -> _py `ui `uc -> - -> _y0 `ui -> _px `ui `uc -> + -> * -> 2 `i -> _px `i `ui -> _delta `ui `uc _color ]
+[e :U 491 ]
+"840
+[; ;tft_st7735.c: 840:             if(corners & 2) TFT_DrawVLine(x0-py, y0-px, 2*px+delta, color);
+[e $ ! != & -> _corners `i -> 2 `i -> 0 `i 492  ]
+[e ( _TFT_DrawVLine (4 , , , -> - -> _x0 `ui -> _py `ui `uc -> - -> _y0 `ui -> _px `ui `uc -> + -> * -> 2 `i -> _px `i `ui -> _delta `ui `uc _color ]
+[e :U 492 ]
+"841
+[; ;tft_st7735.c: 841:             py = y;
+[e = _py _y ]
+"842
+[; ;tft_st7735.c: 842:         }
+}
+[e :U 490 ]
+"843
+[; ;tft_st7735.c: 843:         px = x;
+[e = _px _x ]
+"844
+[; ;tft_st7735.c: 844:     }
+}
+[e :U 483 ]
+"825
+[; ;tft_st7735.c: 825:     while(x < y) {
+[e $ < -> _x `i -> _y `i 484  ]
+[e :U 485 ]
+"845
+[; ;tft_st7735.c: 845: }
+[e :UE 482 ]
+}
+"847
+[; ;tft_st7735.c: 847: void TFT_DrawRect(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_t color)
+[v _TFT_DrawRect `(v ~T0 @X0 1 ef5`us`us`us`us`us ]
+"848
+[; ;tft_st7735.c: 848: {
+{
+[e :U _TFT_DrawRect ]
+"847
+[; ;tft_st7735.c: 847: void TFT_DrawRect(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_t color)
+[v _x `us ~T0 @X0 1 r1 ]
+[v _y `us ~T0 @X0 1 r2 ]
+[v _w `us ~T0 @X0 1 r3 ]
+[v _h `us ~T0 @X0 1 r4 ]
+[v _color `us ~T0 @X0 1 r5 ]
+"848
+[; ;tft_st7735.c: 848: {
+[f ]
+"849
+[; ;tft_st7735.c: 849:     TFT_DrawHLine(x, y, w, color);
+[e ( _TFT_DrawHLine (4 , , , -> _x `uc -> _y `uc -> _w `uc _color ]
+"850
+[; ;tft_st7735.c: 850:     TFT_DrawHLine(x, y+h-1, w, color);
+[e ( _TFT_DrawHLine (4 , , , -> _x `uc -> - + -> _y `ui -> _h `ui -> -> 1 `i `ui `uc -> _w `uc _color ]
+"851
+[; ;tft_st7735.c: 851:     TFT_DrawVLine(x, y, h, color);
+[e ( _TFT_DrawVLine (4 , , , -> _x `uc -> _y `uc -> _h `uc _color ]
+"852
+[; ;tft_st7735.c: 852:     TFT_DrawVLine(x+w-1, y, h, color);
+[e ( _TFT_DrawVLine (4 , , , -> - + -> _x `ui -> _w `ui -> -> 1 `i `ui `uc -> _y `uc -> _h `uc _color ]
+"853
+[; ;tft_st7735.c: 853: }
+[e :UE 493 ]
+}
+"855
+[; ;tft_st7735.c: 855: void TFT_DrawRoundRect(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_t r, uint16_t color)
+[v _TFT_DrawRoundRect `(v ~T0 @X0 1 ef6`us`us`us`us`us`us ]
+"856
+[; ;tft_st7735.c: 856: {
+{
+[e :U _TFT_DrawRoundRect ]
+"855
+[; ;tft_st7735.c: 855: void TFT_DrawRoundRect(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_t r, uint16_t color)
+[v _x `us ~T0 @X0 1 r1 ]
+[v _y `us ~T0 @X0 1 r2 ]
+[v _w `us ~T0 @X0 1 r3 ]
+[v _h `us ~T0 @X0 1 r4 ]
+[v _r `us ~T0 @X0 1 r5 ]
+[v _color `us ~T0 @X0 1 r6 ]
+"856
+[; ;tft_st7735.c: 856: {
+[f ]
+"857
+[; ;tft_st7735.c: 857:     int16_t max_radius = ((w < h) ? w : h) / 2;
+[v _max_radius `s ~T0 @X0 1 a ]
+[e = _max_radius -> / ? < -> _w `ui -> _h `ui : -> _w `ui -> _h `ui -> -> 2 `i `ui `s ]
+"858
+[; ;tft_st7735.c: 858:     if(r > max_radius) r = max_radius;
+[e $ ! > -> _r `ui -> _max_radius `ui 495  ]
+[e = _r -> _max_radius `us ]
+[e :U 495 ]
+"859
+[; ;tft_st7735.c: 859:     TFT_DrawHLine(x+r, y, w-2*r, color);
+[e ( _TFT_DrawHLine (4 , , , -> + -> _x `ui -> _r `ui `uc -> _y `uc -> - -> _w `ui * -> -> 2 `i `ui -> _r `ui `uc _color ]
+"860
+[; ;tft_st7735.c: 860:     TFT_DrawHLine(x+r, y+h-1, w-2*r, color);
+[e ( _TFT_DrawHLine (4 , , , -> + -> _x `ui -> _r `ui `uc -> - + -> _y `ui -> _h `ui -> -> 1 `i `ui `uc -> - -> _w `ui * -> -> 2 `i `ui -> _r `ui `uc _color ]
+"861
+[; ;tft_st7735.c: 861:     TFT_DrawVLine(x, y+r, h-2*r, color);
+[e ( _TFT_DrawVLine (4 , , , -> _x `uc -> + -> _y `ui -> _r `ui `uc -> - -> _h `ui * -> -> 2 `i `ui -> _r `ui `uc _color ]
+"862
+[; ;tft_st7735.c: 862:     TFT_DrawVLine(x+w-1, y+r, h-2*r, color);
+[e ( _TFT_DrawVLine (4 , , , -> - + -> _x `ui -> _w `ui -> -> 1 `i `ui `uc -> + -> _y `ui -> _r `ui `uc -> - -> _h `ui * -> -> 2 `i `ui -> _r `ui `uc _color ]
+"863
+[; ;tft_st7735.c: 863:     TFT_DrawCircleHelper(x+r, y+r, r, 1, color);
+[e ( _TFT_DrawCircleHelper (4 , , , , -> + -> _x `ui -> _r `ui `us -> + -> _y `ui -> _r `ui `us _r -> -> 1 `i `uc _color ]
+"864
+[; ;tft_st7735.c: 864:     TFT_DrawCircleHelper(x+w-r-1, y+r, r, 2, color);
+[e ( _TFT_DrawCircleHelper (4 , , , , -> - - + -> _x `ui -> _w `ui -> _r `ui -> -> 1 `i `ui `us -> + -> _y `ui -> _r `ui `us _r -> -> 2 `i `uc _color ]
+"865
+[; ;tft_st7735.c: 865:     TFT_DrawCircleHelper(x+w-r-1, y+h-r-1, r, 4, color);
+[e ( _TFT_DrawCircleHelper (4 , , , , -> - - + -> _x `ui -> _w `ui -> _r `ui -> -> 1 `i `ui `us -> - - + -> _y `ui -> _h `ui -> _r `ui -> -> 1 `i `ui `us _r -> -> 4 `i `uc _color ]
+"866
+[; ;tft_st7735.c: 866:     TFT_DrawCircleHelper(x+r, y+h-r-1, r, 8, color);
+[e ( _TFT_DrawCircleHelper (4 , , , , -> + -> _x `ui -> _r `ui `us -> - - + -> _y `ui -> _h `ui -> _r `ui -> -> 1 `i `ui `us _r -> -> 8 `i `uc _color ]
+"867
+[; ;tft_st7735.c: 867: }
+[e :UE 494 ]
+}
+"869
+[; ;tft_st7735.c: 869: void TFT_FillRoundRect(uint16_t x, uint16_t y, uint16_t w,uint16_t h, uint16_t r, uint16_t color)
+[v _TFT_FillRoundRect `(v ~T0 @X0 1 ef6`us`us`us`us`us`us ]
+"870
+[; ;tft_st7735.c: 870: {
+{
+[e :U _TFT_FillRoundRect ]
+"869
+[; ;tft_st7735.c: 869: void TFT_FillRoundRect(uint16_t x, uint16_t y, uint16_t w,uint16_t h, uint16_t r, uint16_t color)
+[v _x `us ~T0 @X0 1 r1 ]
+[v _y `us ~T0 @X0 1 r2 ]
+[v _w `us ~T0 @X0 1 r3 ]
+[v _h `us ~T0 @X0 1 r4 ]
+[v _r `us ~T0 @X0 1 r5 ]
+[v _color `us ~T0 @X0 1 r6 ]
+"870
+[; ;tft_st7735.c: 870: {
+[f ]
+"871
+[; ;tft_st7735.c: 871:     int16_t max_radius = ((w < h) ? w : h) / 2;
+[v _max_radius `s ~T0 @X0 1 a ]
+[e = _max_radius -> / ? < -> _w `ui -> _h `ui : -> _w `ui -> _h `ui -> -> 2 `i `ui `s ]
+"872
+[; ;tft_st7735.c: 872:     if(r > max_radius) r = max_radius;
+[e $ ! > -> _r `ui -> _max_radius `ui 497  ]
+[e = _r -> _max_radius `us ]
+[e :U 497 ]
+"873
+[; ;tft_st7735.c: 873:     TFT_FillRect(x+r, y, w-2*r, h, color);
+[e ( _TFT_FillRect (4 , , , , -> + -> _x `ui -> _r `ui `uc -> _y `uc -> - -> _w `ui * -> -> 2 `i `ui -> _r `ui `uc -> _h `uc _color ]
+"874
+[; ;tft_st7735.c: 874:     TFT_FillCircleHelper(x+w-r-1, y+r, r, 1, h-2*r-1, color);
+[e ( _TFT_FillCircleHelper (4 , , , , , -> - - + -> _x `ui -> _w `ui -> _r `ui -> -> 1 `i `ui `us -> + -> _y `ui -> _r `ui `us _r -> -> 1 `i `uc -> - - -> _h `ui * -> -> 2 `i `ui -> _r `ui -> -> 1 `i `ui `us _color ]
+"876
+[; ;tft_st7735.c: 876:     TFT_FillCircleHelper(x+r , y+r, r, 2, h-2*r-1, color);
+[e ( _TFT_FillCircleHelper (4 , , , , , -> + -> _x `ui -> _r `ui `us -> + -> _y `ui -> _r `ui `us _r -> -> 2 `i `uc -> - - -> _h `ui * -> -> 2 `i `ui -> _r `ui -> -> 1 `i `ui `us _color ]
+"877
+[; ;tft_st7735.c: 877: }
+[e :UE 496 ]
+}
+"879
+[; ;tft_st7735.c: 879: void TFT_DrawTriangle(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1,uint16_t x2, uint16_t y2, uint16_t color)
+[v _TFT_DrawTriangle `(v ~T0 @X0 1 ef7`us`us`us`us`us`us`us ]
+"880
+[; ;tft_st7735.c: 880: {
+{
+[e :U _TFT_DrawTriangle ]
+"879
+[; ;tft_st7735.c: 879: void TFT_DrawTriangle(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1,uint16_t x2, uint16_t y2, uint16_t color)
+[v _x0 `us ~T0 @X0 1 r1 ]
+[v _y0 `us ~T0 @X0 1 r2 ]
+[v _x1 `us ~T0 @X0 1 r3 ]
+[v _y1 `us ~T0 @X0 1 r4 ]
+[v _x2 `us ~T0 @X0 1 r5 ]
+[v _y2 `us ~T0 @X0 1 r6 ]
+[v _color `us ~T0 @X0 1 r7 ]
+"880
+[; ;tft_st7735.c: 880: {
+[f ]
+"881
+[; ;tft_st7735.c: 881:     TFT_DrawLine(x0, y0, x1, y1, color);
+[e ( _TFT_DrawLine (4 , , , , _x0 _y0 _x1 _y1 _color ]
+"882
+[; ;tft_st7735.c: 882:     TFT_DrawLine(x1, y1, x2, y2, color);
+[e ( _TFT_DrawLine (4 , , , , _x1 _y1 _x2 _y2 _color ]
+"883
+[; ;tft_st7735.c: 883:     TFT_DrawLine(x2, y2, x0, y0, color);
+[e ( _TFT_DrawLine (4 , , , , _x2 _y2 _x0 _y0 _color ]
+"884
+[; ;tft_st7735.c: 884: }
+[e :UE 498 ]
+}
+"886
+[; ;tft_st7735.c: 886: void TFT_FillTriangle(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t color)
+[v _TFT_FillTriangle `(v ~T0 @X0 1 ef7`us`us`us`us`us`us`us ]
+"887
+[; ;tft_st7735.c: 887: {
+{
+[e :U _TFT_FillTriangle ]
+"886
+[; ;tft_st7735.c: 886: void TFT_FillTriangle(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t color)
+[v _x0 `us ~T0 @X0 1 r1 ]
+[v _y0 `us ~T0 @X0 1 r2 ]
+[v _x1 `us ~T0 @X0 1 r3 ]
+[v _y1 `us ~T0 @X0 1 r4 ]
+[v _x2 `us ~T0 @X0 1 r5 ]
+[v _y2 `us ~T0 @X0 1 r6 ]
+[v _color `us ~T0 @X0 1 r7 ]
+"887
+[; ;tft_st7735.c: 887: {
+[f ]
+"888
+[; ;tft_st7735.c: 888:     int16_t a, b, y, last;
+[v _a `s ~T0 @X0 1 a ]
+[v _b `s ~T0 @X0 1 a ]
+[v _y `s ~T0 @X0 1 a ]
+[v _last `s ~T0 @X0 1 a ]
+"889
+[; ;tft_st7735.c: 889:     if(y0 > y1){
+[e $ ! > -> _y0 `ui -> _y1 `ui 500  ]
+{
+"890
+[; ;tft_st7735.c: 890:         { int16_t t = y0; y0 = y1; y1 = t; }; { int16_t t = x0; x0 = x1; x1 = t; };
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _y0 `s ]
+[e = _y0 _y1 ]
+[e = _y1 -> _t `us ]
+}
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _x0 `s ]
+[e = _x0 _x1 ]
+[e = _x1 -> _t `us ]
+}
+"891
+[; ;tft_st7735.c: 891:     }
+}
+[e :U 500 ]
+"892
+[; ;tft_st7735.c: 892:     if(y1 > y2){
+[e $ ! > -> _y1 `ui -> _y2 `ui 501  ]
+{
+"893
+[; ;tft_st7735.c: 893:         { int16_t t = y2; y2 = y1; y1 = t; }; { int16_t t = x2; x2 = x1; x1 = t; };
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _y2 `s ]
+[e = _y2 _y1 ]
+[e = _y1 -> _t `us ]
+}
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _x2 `s ]
+[e = _x2 _x1 ]
+[e = _x1 -> _t `us ]
+}
+"894
+[; ;tft_st7735.c: 894:     }
+}
+[e :U 501 ]
+"895
+[; ;tft_st7735.c: 895:     if(y0 > y1){
+[e $ ! > -> _y0 `ui -> _y1 `ui 502  ]
+{
+"896
+[; ;tft_st7735.c: 896:         { int16_t t = y0; y0 = y1; y1 = t; }; { int16_t t = x0; x0 = x1; x1 = t; };
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _y0 `s ]
+[e = _y0 _y1 ]
+[e = _y1 -> _t `us ]
+}
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t -> _x0 `s ]
+[e = _x0 _x1 ]
+[e = _x1 -> _t `us ]
+}
+"897
+[; ;tft_st7735.c: 897:     }
+}
+[e :U 502 ]
+"898
+[; ;tft_st7735.c: 898:     if(y0 == y2){
+[e $ ! == -> _y0 `ui -> _y2 `ui 503  ]
+{
+"899
+[; ;tft_st7735.c: 899:         a = b = x0;
+[e = _a = _b -> _x0 `s ]
+"900
+[; ;tft_st7735.c: 900:         if(x1 < a) a = x1;
+[e $ ! < -> _x1 `ui -> _a `ui 504  ]
+[e = _a -> _x1 `s ]
+[e $U 505  ]
+"901
+[; ;tft_st7735.c: 901:         else if(x1 > b) b = x1;
+[e :U 504 ]
+[e $ ! > -> _x1 `ui -> _b `ui 506  ]
+[e = _b -> _x1 `s ]
+[e :U 506 ]
+[e :U 505 ]
+"902
+[; ;tft_st7735.c: 902:         if(x2 < a) a = x2;
+[e $ ! < -> _x2 `ui -> _a `ui 507  ]
+[e = _a -> _x2 `s ]
+[e $U 508  ]
+"903
+[; ;tft_st7735.c: 903:         else if(x2 > b) b = x2;
+[e :U 507 ]
+[e $ ! > -> _x2 `ui -> _b `ui 509  ]
+[e = _b -> _x2 `s ]
+[e :U 509 ]
+[e :U 508 ]
+"904
+[; ;tft_st7735.c: 904:         TFT_DrawHLine(a, y0, b-a+1, color);
+[e ( _TFT_DrawHLine (4 , , , -> _a `uc -> _y0 `uc -> + - -> _b `i -> _a `i -> 1 `i `uc _color ]
+"905
+[; ;tft_st7735.c: 905:         return;
+[e $UE 499  ]
+"906
+[; ;tft_st7735.c: 906:     }
+}
+[e :U 503 ]
+"908
+[; ;tft_st7735.c: 908:     dx01 = x1 - x0,
+[v _dx01 `s ~T0 @X0 1 a ]
+[e = _dx01 -> - -> _x1 `ui -> _x0 `ui `s ]
+"909
+[; ;tft_st7735.c: 909:     dy01 = y1 - y0,
+[v _dy01 `s ~T0 @X0 1 a ]
+[e = _dy01 -> - -> _y1 `ui -> _y0 `ui `s ]
+"910
+[; ;tft_st7735.c: 910:     dx02 = x2 - x0,
+[v _dx02 `s ~T0 @X0 1 a ]
+[e = _dx02 -> - -> _x2 `ui -> _x0 `ui `s ]
+"911
+[; ;tft_st7735.c: 911:     dy02 = y2 - y0,
+[v _dy02 `s ~T0 @X0 1 a ]
+[e = _dy02 -> - -> _y2 `ui -> _y0 `ui `s ]
+"912
+[; ;tft_st7735.c: 912:     dx12 = x2 - x1,
+[v _dx12 `s ~T0 @X0 1 a ]
+[e = _dx12 -> - -> _x2 `ui -> _x1 `ui `s ]
+"913
+[; ;tft_st7735.c: 913:     dy12 = y2 - y1;
+[v _dy12 `s ~T0 @X0 1 a ]
+[e = _dy12 -> - -> _y2 `ui -> _y1 `ui `s ]
+"915
+[; ;tft_st7735.c: 915:     sa = 0,
+[v _sa `l ~T0 @X0 1 a ]
+[e = _sa -> -> 0 `i `l ]
+"916
+[; ;tft_st7735.c: 916:     sb = 0;
+[v _sb `l ~T0 @X0 1 a ]
+[e = _sb -> -> 0 `i `l ]
+"918
+[; ;tft_st7735.c: 918:     if(y1 == y2) last = y1;
+[e $ ! == -> _y1 `ui -> _y2 `ui 510  ]
+[e = _last -> _y1 `s ]
+[e $U 511  ]
+"919
+[; ;tft_st7735.c: 919:     else last = y1-1;
+[e :U 510 ]
+[e = _last -> - -> _y1 `ui -> -> 1 `i `ui `s ]
+[e :U 511 ]
+"921
+[; ;tft_st7735.c: 921:     for(y=y0; y<=last; y++) {
+{
+[e = _y -> _y0 `s ]
+[e $U 515  ]
+[e :U 512 ]
+{
+"922
+[; ;tft_st7735.c: 922:         a = x0 + sa / dy01;
+[e = _a -> + -> _x0 `l / _sa -> _dy01 `l `s ]
+"923
+[; ;tft_st7735.c: 923:         b = x0 + sb / dy02;
+[e = _b -> + -> _x0 `l / _sb -> _dy02 `l `s ]
+"924
+[; ;tft_st7735.c: 924:         sa += dx01;
+[e =+ _sa -> _dx01 `l ]
+"925
+[; ;tft_st7735.c: 925:         sb += dx02;
+[e =+ _sb -> _dx02 `l ]
+"930
+[; ;tft_st7735.c: 930:         if(a > b) { int16_t t = a; a = b; b = t; };
+[e $ ! > -> _a `i -> _b `i 516  ]
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _a ]
+[e = _a _b ]
+[e = _b _t ]
+}
+[e :U 516 ]
+"931
+[; ;tft_st7735.c: 931:         TFT_DrawHLine(a, y, b-a+1, color);
+[e ( _TFT_DrawHLine (4 , , , -> _a `uc -> _y `uc -> + - -> _b `i -> _a `i -> 1 `i `uc _color ]
+"932
+[; ;tft_st7735.c: 932:     }
+}
+[e ++ _y -> -> 1 `i `s ]
+[e :U 515 ]
+[e $ <= -> _y `i -> _last `i 512  ]
+[e :U 513 ]
+}
+"934
+[; ;tft_st7735.c: 934:     sa = dx12 * (y - y1);
+[e = _sa -> * -> _dx12 `ui - -> _y `ui -> _y1 `ui `l ]
+"935
+[; ;tft_st7735.c: 935:     sb = dx02 * (y - y0);
+[e = _sb -> * -> _dx02 `ui - -> _y `ui -> _y0 `ui `l ]
+"936
+[; ;tft_st7735.c: 936:     for(; y<=y2; y++) {
+{
+[e $U 520  ]
+[e :U 517 ]
+{
+"937
+[; ;tft_st7735.c: 937:         a = x1 + sa / dy12;
+[e = _a -> + -> _x1 `l / _sa -> _dy12 `l `s ]
+"938
+[; ;tft_st7735.c: 938:         b = x0 + sb / dy02;
+[e = _b -> + -> _x0 `l / _sb -> _dy02 `l `s ]
+"939
+[; ;tft_st7735.c: 939:         sa += dx12;
+[e =+ _sa -> _dx12 `l ]
+"940
+[; ;tft_st7735.c: 940:         sb += dx02;
+[e =+ _sb -> _dx02 `l ]
+"945
+[; ;tft_st7735.c: 945:         if(a > b) { int16_t t = a; a = b; b = t; };
+[e $ ! > -> _a `i -> _b `i 521  ]
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _a ]
+[e = _a _b ]
+[e = _b _t ]
+}
+[e :U 521 ]
+"946
+[; ;tft_st7735.c: 946:         TFT_DrawHLine(a, y, b-a+1, color);
+[e ( _TFT_DrawHLine (4 , , , -> _a `uc -> _y `uc -> + - -> _b `i -> _a `i -> 1 `i `uc _color ]
+"947
+[; ;tft_st7735.c: 947:     }
+}
+[e ++ _y -> -> 1 `i `s ]
+[e :U 520 ]
+[e $ <= -> _y `ui -> _y2 `ui 517  ]
+[e :U 518 ]
+}
+"948
+[; ;tft_st7735.c: 948: }
+[e :UE 499 ]
+}
+"950
+[; ;tft_st7735.c: 950: void TFT_Print(uint8_t c)
+[v _TFT_Print `(v ~T0 @X0 1 ef1`uc ]
+"951
+[; ;tft_st7735.c: 951: {
+{
+[e :U _TFT_Print ]
+"950
+[; ;tft_st7735.c: 950: void TFT_Print(uint8_t c)
+[v _c `uc ~T0 @X0 1 r1 ]
+"951
+[; ;tft_st7735.c: 951: {
+[f ]
+"952
+[; ;tft_st7735.c: 952:     if(c == ' ' && cursor_x == 0 && wrap)
+[e $ ! && && == -> _c `ui -> 32 `ui == -> _cursor_x `i -> 0 `i != -> _wrap `i -> 0 `i 523  ]
+"953
+[; ;tft_st7735.c: 953:         return;
+[e $UE 522  ]
+[e :U 523 ]
+"954
+[; ;tft_st7735.c: 954:     for(uint8_t i = 0; i < 5; i++ ){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 5 `i 524  ]
+[e $U 525  ]
+[e :U 524 ]
+{
+"955
+[; ;tft_st7735.c: 955:         uint8_t line = font[c][i];
+[v _line `uc ~T0 @X0 1 a ]
+[e = _line *U + &U *U + &U _font * -> _c `ux -> * -> # *U &U *U &U _font `ui -> -> 5 `i `ui `ux * -> _i `ux -> -> # *U &U *U + &U _font * -> _c `ux -> * -> # *U &U *U &U _font `ui -> -> 5 `i `ui `ux `ui `ux ]
+"956
+[; ;tft_st7735.c: 956:         for(uint8_t j = 0; j < 8; j++, line >>= 1){
+{
+[v _j `uc ~T0 @X0 1 a ]
+[e = _j -> -> 0 `i `uc ]
+[e $ < -> _j `i -> 8 `i 527  ]
+[e $U 528  ]
+[e :U 527 ]
+{
+"957
+[; ;tft_st7735.c: 957:             if(line & 1) {
+[e $ ! != & -> _line `i -> 1 `i -> 0 `i 530  ]
+{
+"958
+[; ;tft_st7735.c: 958:                 if(textsize == 1)
+[e $ ! == -> _textsize `i -> 1 `i 531  ]
+"959
+[; ;tft_st7735.c: 959:                     TFT_DrawPixel(cursor_x + i, cursor_y + j, textcolor);
+[e ( _TFT_DrawPixel (3 , , -> + -> _cursor_x `i -> _i `i `uc -> + -> _cursor_y `i -> _j `i `uc _textcolor ]
+[e $U 532  ]
+"960
+[; ;tft_st7735.c: 960:                 else
+[e :U 531 ]
+"961
+[; ;tft_st7735.c: 961:                     TFT_FillRect(cursor_x + i * textsize, cursor_y + j * textsize, textsize, textsize, textcolor);
+[e ( _TFT_FillRect (4 , , , , -> + -> _cursor_x `i * -> _i `i -> _textsize `i `uc -> + -> _cursor_y `i * -> _j `i -> _textsize `i `uc _textsize _textsize _textcolor ]
+[e :U 532 ]
+"962
+[; ;tft_st7735.c: 962:             }
+}
+[e $U 533  ]
+"963
+[; ;tft_st7735.c: 963:             else{
+[e :U 530 ]
+{
+"964
+[; ;tft_st7735.c: 964:                 if(textbgcolor != textcolor) {
+[e $ ! != -> _textbgcolor `ui -> _textcolor `ui 534  ]
+{
+"965
+[; ;tft_st7735.c: 965:                     if(textsize == 1)
+[e $ ! == -> _textsize `i -> 1 `i 535  ]
+"966
+[; ;tft_st7735.c: 966:                         TFT_DrawPixel(cursor_x + i, cursor_y + j, textbgcolor);
+[e ( _TFT_DrawPixel (3 , , -> + -> _cursor_x `i -> _i `i `uc -> + -> _cursor_y `i -> _j `i `uc _textbgcolor ]
+[e $U 536  ]
+"967
+[; ;tft_st7735.c: 967:                     else
+[e :U 535 ]
+"968
+[; ;tft_st7735.c: 968:                         TFT_FillRect(cursor_x + i * textsize, cursor_y + j * textsize, textsize, textsize, textbgcolor);
+[e ( _TFT_FillRect (4 , , , , -> + -> _cursor_x `i * -> _i `i -> _textsize `i `uc -> + -> _cursor_y `i * -> _j `i -> _textsize `i `uc _textsize _textsize _textbgcolor ]
+[e :U 536 ]
+"969
+[; ;tft_st7735.c: 969:                 }
+}
+[e :U 534 ]
+"970
+[; ;tft_st7735.c: 970:             }
+}
+[e :U 533 ]
+"971
+[; ;tft_st7735.c: 971:         }
+}
+[e ; ++ _j -> -> 1 `i `uc =>> _line -> -> 1 `i `uc ]
+[e $ < -> _j `i -> 8 `i 527  ]
+[e :U 528 ]
+}
+"972
+[; ;tft_st7735.c: 972:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 5 `i 524  ]
+[e :U 525 ]
+}
+"973
+[; ;tft_st7735.c: 973:     if(textbgcolor != textcolor){
+[e $ ! != -> _textbgcolor `ui -> _textcolor `ui 537  ]
+{
+"974
+[; ;tft_st7735.c: 974:         if(textsize == 1) TFT_DrawVLine(cursor_x + 5, cursor_y, 8, textbgcolor);
+[e $ ! == -> _textsize `i -> 1 `i 538  ]
+[e ( _TFT_DrawVLine (4 , , , -> + -> _cursor_x `i -> 5 `i `uc -> _cursor_y `uc -> -> 8 `i `uc _textbgcolor ]
+[e $U 539  ]
+"975
+[; ;tft_st7735.c: 975:         else TFT_FillRect(cursor_x + 5 * textsize, cursor_y, textsize, 8 * textsize, textbgcolor);
+[e :U 538 ]
+[e ( _TFT_FillRect (4 , , , , -> + -> _cursor_x `i * -> 5 `i -> _textsize `i `uc -> _cursor_y `uc _textsize -> * -> 8 `i -> _textsize `i `uc _textbgcolor ]
+[e :U 539 ]
+"976
+[; ;tft_st7735.c: 976:     }
+}
+[e :U 537 ]
+"977
+[; ;tft_st7735.c: 977:     cursor_x += textsize * 6;
+[e =+ _cursor_x -> * -> _textsize `i -> 6 `i `s ]
+"978
+[; ;tft_st7735.c: 978:     if(cursor_x > ((uint16_t)_width + textsize * 6))
+[e $ ! > -> _cursor_x `ui + -> -> __width `us `ui -> * -> _textsize `i -> 6 `i `ui 540  ]
+"979
+[; ;tft_st7735.c: 979:         cursor_x = _width;
+[e = _cursor_x -> __width `s ]
+[e :U 540 ]
+"980
+[; ;tft_st7735.c: 980:     if(wrap && (cursor_x + (textsize * 5)) > _width)
+[e $ ! && != -> _wrap `i -> 0 `i > + -> _cursor_x `i * -> _textsize `i -> 5 `i -> __width `i 541  ]
+"981
+[; ;tft_st7735.c: 981:     {
+{
+"982
+[; ;tft_st7735.c: 982:         cursor_x = 0;
+[e = _cursor_x -> -> 0 `i `s ]
+"983
+[; ;tft_st7735.c: 983:         cursor_y += textsize * 8;
+[e =+ _cursor_y -> * -> _textsize `i -> 8 `i `s ]
+"984
+[; ;tft_st7735.c: 984:         if(cursor_y > ((uint16_t)_height + textsize * 8))
+[e $ ! > -> _cursor_y `ui + -> -> __height `us `ui -> * -> _textsize `i -> 8 `i `ui 542  ]
+"985
+[; ;tft_st7735.c: 985:             cursor_y = _height;
+[e = _cursor_y -> __height `s ]
+[e :U 542 ]
+"986
+[; ;tft_st7735.c: 986:     }
+}
+[e :U 541 ]
+"987
+[; ;tft_st7735.c: 987: }
+[e :UE 522 ]
+}
+"989
+[; ;tft_st7735.c: 989: void TFT_CustomChar(const uint8_t *c)
+[v _TFT_CustomChar `(v ~T0 @X0 1 ef1`*Cuc ]
+"990
+[; ;tft_st7735.c: 990: {
+{
+[e :U _TFT_CustomChar ]
+"989
+[; ;tft_st7735.c: 989: void TFT_CustomChar(const uint8_t *c)
+[v _c `*Cuc ~T0 @X0 1 r1 ]
+"990
+[; ;tft_st7735.c: 990: {
+[f ]
+"991
+[; ;tft_st7735.c: 991:     for(uint8_t i = 0; i < 5; i++ ){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 5 `i 544  ]
+[e $U 545  ]
+[e :U 544 ]
+{
+"992
+[; ;tft_st7735.c: 992:         uint8_t line = c[i];
+[v _line `uc ~T0 @X0 1 a ]
+[e = _line *U + _c * -> _i `ux -> -> # *U _c `ui `ux ]
+"993
+[; ;tft_st7735.c: 993:         for(uint8_t j = 0; j < 8; j++, line >>= 1){
+{
+[v _j `uc ~T0 @X0 1 a ]
+[e = _j -> -> 0 `i `uc ]
+[e $ < -> _j `i -> 8 `i 547  ]
+[e $U 548  ]
+[e :U 547 ]
+{
+"994
+[; ;tft_st7735.c: 994:             if(line & 1){
+[e $ ! != & -> _line `i -> 1 `i -> 0 `i 550  ]
+{
+"995
+[; ;tft_st7735.c: 995:                 if(textsize == 1)
+[e $ ! == -> _textsize `i -> 1 `i 551  ]
+"996
+[; ;tft_st7735.c: 996:                     TFT_DrawPixel(cursor_x + i, cursor_y + j, textcolor);
+[e ( _TFT_DrawPixel (3 , , -> + -> _cursor_x `i -> _i `i `uc -> + -> _cursor_y `i -> _j `i `uc _textcolor ]
+[e $U 552  ]
+"997
+[; ;tft_st7735.c: 997:                 else
+[e :U 551 ]
+"998
+[; ;tft_st7735.c: 998:                     TFT_FillRect(cursor_x + i * textsize, cursor_y + j * textsize, textsize, textsize, textcolor);
+[e ( _TFT_FillRect (4 , , , , -> + -> _cursor_x `i * -> _i `i -> _textsize `i `uc -> + -> _cursor_y `i * -> _j `i -> _textsize `i `uc _textsize _textsize _textcolor ]
+[e :U 552 ]
+"999
+[; ;tft_st7735.c: 999:             }
+}
+[e $U 553  ]
+"1000
+[; ;tft_st7735.c: 1000:             else{
+[e :U 550 ]
+{
+"1001
+[; ;tft_st7735.c: 1001:                 if(textbgcolor != textcolor) {
+[e $ ! != -> _textbgcolor `ui -> _textcolor `ui 554  ]
+{
+"1002
+[; ;tft_st7735.c: 1002:                     if(textsize == 1)
+[e $ ! == -> _textsize `i -> 1 `i 555  ]
+"1003
+[; ;tft_st7735.c: 1003:                         TFT_DrawPixel(cursor_x + i, cursor_y + j, textbgcolor);
+[e ( _TFT_DrawPixel (3 , , -> + -> _cursor_x `i -> _i `i `uc -> + -> _cursor_y `i -> _j `i `uc _textbgcolor ]
+[e $U 556  ]
+"1004
+[; ;tft_st7735.c: 1004:                     else
+[e :U 555 ]
+"1005
+[; ;tft_st7735.c: 1005:                         TFT_FillRect(cursor_x + i * textsize, cursor_y + j * textsize, textsize, textsize, textbgcolor);
+[e ( _TFT_FillRect (4 , , , , -> + -> _cursor_x `i * -> _i `i -> _textsize `i `uc -> + -> _cursor_y `i * -> _j `i -> _textsize `i `uc _textsize _textsize _textbgcolor ]
+[e :U 556 ]
+"1006
+[; ;tft_st7735.c: 1006:                 }
+}
+[e :U 554 ]
+"1007
+[; ;tft_st7735.c: 1007:             }
+}
+[e :U 553 ]
+"1008
+[; ;tft_st7735.c: 1008:         }
+}
+[e ; ++ _j -> -> 1 `i `uc =>> _line -> -> 1 `i `uc ]
+[e $ < -> _j `i -> 8 `i 547  ]
+[e :U 548 ]
+}
+"1009
+[; ;tft_st7735.c: 1009:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 5 `i 544  ]
+[e :U 545 ]
+}
+"1011
+[; ;tft_st7735.c: 1011:     if(textbgcolor != textcolor){
+[e $ ! != -> _textbgcolor `ui -> _textcolor `ui 557  ]
+{
+"1012
+[; ;tft_st7735.c: 1012:         if(textsize == 1) TFT_DrawVLine(cursor_x + 5, cursor_y, 8, textbgcolor);
+[e $ ! == -> _textsize `i -> 1 `i 558  ]
+[e ( _TFT_DrawVLine (4 , , , -> + -> _cursor_x `i -> 5 `i `uc -> _cursor_y `uc -> -> 8 `i `uc _textbgcolor ]
+[e $U 559  ]
+"1013
+[; ;tft_st7735.c: 1013:         else TFT_FillRect(cursor_x + 5 * textsize, cursor_y, textsize, 8 * textsize, textbgcolor);
+[e :U 558 ]
+[e ( _TFT_FillRect (4 , , , , -> + -> _cursor_x `i * -> 5 `i -> _textsize `i `uc -> _cursor_y `uc _textsize -> * -> 8 `i -> _textsize `i `uc _textbgcolor ]
+[e :U 559 ]
+"1014
+[; ;tft_st7735.c: 1014:     }
+}
+[e :U 557 ]
+"1015
+[; ;tft_st7735.c: 1015:     cursor_x += textsize * 6;
+[e =+ _cursor_x -> * -> _textsize `i -> 6 `i `s ]
+"1017
+[; ;tft_st7735.c: 1017:     if(cursor_x > ((uint16_t)_width + textsize * 6))
+[e $ ! > -> _cursor_x `ui + -> -> __width `us `ui -> * -> _textsize `i -> 6 `i `ui 560  ]
+"1018
+[; ;tft_st7735.c: 1018:         cursor_x = _width;
+[e = _cursor_x -> __width `s ]
+[e :U 560 ]
+"1019
+[; ;tft_st7735.c: 1019:     if(wrap && (cursor_x + (textsize * 5)) > _width)
+[e $ ! && != -> _wrap `i -> 0 `i > + -> _cursor_x `i * -> _textsize `i -> 5 `i -> __width `i 561  ]
+"1020
+[; ;tft_st7735.c: 1020:     {
+{
+"1021
+[; ;tft_st7735.c: 1021:         cursor_x = 0;
+[e = _cursor_x -> -> 0 `i `s ]
+"1022
+[; ;tft_st7735.c: 1022:         cursor_y += textsize * 8;
+[e =+ _cursor_y -> * -> _textsize `i -> 8 `i `s ]
+"1023
+[; ;tft_st7735.c: 1023:         if(cursor_y > ((uint16_t)_height + textsize * 8))
+[e $ ! > -> _cursor_y `ui + -> -> __height `us `ui -> * -> _textsize `i -> 8 `i `ui 562  ]
+"1024
+[; ;tft_st7735.c: 1024:         cursor_y = _height;
+[e = _cursor_y -> __height `s ]
+[e :U 562 ]
+"1025
+[; ;tft_st7735.c: 1025:     }
+}
+[e :U 561 ]
+"1026
+[; ;tft_st7735.c: 1026: }
+[e :UE 543 ]
+}
+"1028
+[; ;tft_st7735.c: 1028: void TFT_DrawChar(uint16_t x, uint16_t y, uint8_t c, uint16_t color, uint16_t bg, uint8_t size)
+[v _TFT_DrawChar `(v ~T0 @X0 1 ef6`us`us`uc`us`us`uc ]
+"1029
+[; ;tft_st7735.c: 1029: {
+{
+[e :U _TFT_DrawChar ]
+"1028
+[; ;tft_st7735.c: 1028: void TFT_DrawChar(uint16_t x, uint16_t y, uint8_t c, uint16_t color, uint16_t bg, uint8_t size)
+[v _x `us ~T0 @X0 1 r1 ]
+[v _y `us ~T0 @X0 1 r2 ]
+[v _c `uc ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+[v _bg `us ~T0 @X0 1 r5 ]
+[v _size `uc ~T0 @X0 1 r6 ]
+"1029
+[; ;tft_st7735.c: 1029: {
+[f ]
+"1030
+[; ;tft_st7735.c: 1030:     uint16_t prev_x = cursor_x,
+[v _prev_x `us ~T0 @X0 1 a ]
+[e = _prev_x -> _cursor_x `us ]
+"1031
+[; ;tft_st7735.c: 1031:              prev_y = cursor_y,
+[v _prev_y `us ~T0 @X0 1 a ]
+[e = _prev_y -> _cursor_y `us ]
+"1032
+[; ;tft_st7735.c: 1032:              prev_color = textcolor,
+[v _prev_color `us ~T0 @X0 1 a ]
+[e = _prev_color _textcolor ]
+"1033
+[; ;tft_st7735.c: 1033:              prev_bg = textbgcolor;
+[v _prev_bg `us ~T0 @X0 1 a ]
+[e = _prev_bg _textbgcolor ]
+"1034
+[; ;tft_st7735.c: 1034:     uint8_t prev_size = textsize;
+[v _prev_size `uc ~T0 @X0 1 a ]
+[e = _prev_size _textsize ]
+"1036
+[; ;tft_st7735.c: 1036:     cursor_x = x;
+[e = _cursor_x -> _x `s ]
+"1037
+[; ;tft_st7735.c: 1037:     cursor_y = y;
+[e = _cursor_y -> _y `s ]
+"1038
+[; ;tft_st7735.c: 1038:     textsize = (size > 0) ? size : 1;
+[e = _textsize -> ? > -> _size `i -> 0 `i : -> _size `i -> 1 `i `uc ]
+"1039
+[; ;tft_st7735.c: 1039:     textcolor = color;
+[e = _textcolor _color ]
+"1040
+[; ;tft_st7735.c: 1040:     textbgcolor = bg;
+[e = _textbgcolor _bg ]
+"1041
+[; ;tft_st7735.c: 1041:     TFT_Print(c);
+[e ( _TFT_Print (1 _c ]
+"1042
+[; ;tft_st7735.c: 1042:     cursor_x = prev_x;
+[e = _cursor_x -> _prev_x `s ]
+"1043
+[; ;tft_st7735.c: 1043:     cursor_y = prev_y;
+[e = _cursor_y -> _prev_y `s ]
+"1044
+[; ;tft_st7735.c: 1044:     textcolor = prev_color;
+[e = _textcolor _prev_color ]
+"1045
+[; ;tft_st7735.c: 1045:     textbgcolor = prev_bg;
+[e = _textbgcolor _prev_bg ]
+"1046
+[; ;tft_st7735.c: 1046:     textsize = prev_size;
+[e = _textsize _prev_size ]
+"1047
+[; ;tft_st7735.c: 1047: }
+[e :UE 563 ]
+}
+"1049
+[; ;tft_st7735.c: 1049: void TFT_WriteString(uint16_t x, uint16_t y, const char* str, uint16_t color, uint16_t bg, uint8_t size)
+[v _TFT_WriteString `(v ~T0 @X0 1 ef6`us`us`*Cuc`us`us`uc ]
+"1050
+[; ;tft_st7735.c: 1050: {
+{
+[e :U _TFT_WriteString ]
+"1049
+[; ;tft_st7735.c: 1049: void TFT_WriteString(uint16_t x, uint16_t y, const char* str, uint16_t color, uint16_t bg, uint8_t size)
+[v _x `us ~T0 @X0 1 r1 ]
+[v _y `us ~T0 @X0 1 r2 ]
+[v _str `*Cuc ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+[v _bg `us ~T0 @X0 1 r5 ]
+[v _size `uc ~T0 @X0 1 r6 ]
+"1050
+[; ;tft_st7735.c: 1050: {
+[f ]
+"1051
+[; ;tft_st7735.c: 1051:     uint8_t x_prev = x;
+[v _x_prev `uc ~T0 @X0 1 a ]
+[e = _x_prev -> _x `uc ]
+"1052
+[; ;tft_st7735.c: 1052:     textsize = (size > 0) ? size : 1;
+[e = _textsize -> ? > -> _size `i -> 0 `i : -> _size `i -> 1 `i `uc ]
+"1053
+[; ;tft_st7735.c: 1053:     textcolor = color;
+[e = _textcolor _color ]
+"1054
+[; ;tft_st7735.c: 1054:     textbgcolor = bg;
+[e = _textbgcolor _bg ]
+"1055
+[; ;tft_st7735.c: 1055:     while(*str != '\0')
+[e $U 565  ]
+[e :U 566 ]
+"1056
+[; ;tft_st7735.c: 1056:     {
+{
+"1057
+[; ;tft_st7735.c: 1057:         switch(textsize)
+[e $U 569  ]
+"1058
+[; ;tft_st7735.c: 1058:         {
+{
+"1059
+[; ;tft_st7735.c: 1059:             case 1:
+[e :U 570 ]
+"1060
+[; ;tft_st7735.c: 1060:                 cursor_x = x_prev;
+[e = _cursor_x -> _x_prev `s ]
+"1061
+[; ;tft_st7735.c: 1061:                 cursor_y = y;
+[e = _cursor_y -> _y `s ]
+"1062
+[; ;tft_st7735.c: 1062:                 TFT_Print(*str++);
+[e ( _TFT_Print (1 -> *U ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x `uc ]
+"1063
+[; ;tft_st7735.c: 1063:                 x_prev = x_prev + 6;
+[e = _x_prev -> + -> _x_prev `i -> 6 `i `uc ]
+"1064
+[; ;tft_st7735.c: 1064:                 break;
+[e $U 568  ]
+"1065
+[; ;tft_st7735.c: 1065:             case 2:
+[e :U 571 ]
+"1066
+[; ;tft_st7735.c: 1066:                 cursor_x = x_prev;
+[e = _cursor_x -> _x_prev `s ]
+"1067
+[; ;tft_st7735.c: 1067:                 cursor_y = y;
+[e = _cursor_y -> _y `s ]
+"1068
+[; ;tft_st7735.c: 1068:                 TFT_Print(*str++);
+[e ( _TFT_Print (1 -> *U ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x `uc ]
+"1069
+[; ;tft_st7735.c: 1069:                 x_prev = x_prev + 12;
+[e = _x_prev -> + -> _x_prev `i -> 12 `i `uc ]
+"1070
+[; ;tft_st7735.c: 1070:                 break;
+[e $U 568  ]
+"1072
+[; ;tft_st7735.c: 1072:             case 3:
+[e :U 572 ]
+"1073
+[; ;tft_st7735.c: 1073:                 cursor_x = x_prev;
+[e = _cursor_x -> _x_prev `s ]
+"1074
+[; ;tft_st7735.c: 1074:                 cursor_y = y;
+[e = _cursor_y -> _y `s ]
+"1075
+[; ;tft_st7735.c: 1075:                 TFT_Print(*str++);
+[e ( _TFT_Print (1 -> *U ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x `uc ]
+"1076
+[; ;tft_st7735.c: 1076:                 x_prev = x_prev + 18;
+[e = _x_prev -> + -> _x_prev `i -> 18 `i `uc ]
+"1077
+[; ;tft_st7735.c: 1077:                 break;
+[e $U 568  ]
+"1079
+[; ;tft_st7735.c: 1079:             case 4:
+[e :U 573 ]
+"1080
+[; ;tft_st7735.c: 1080:                 cursor_x = x_prev;
+[e = _cursor_x -> _x_prev `s ]
+"1081
+[; ;tft_st7735.c: 1081:                 cursor_y = y;
+[e = _cursor_y -> _y `s ]
+"1082
+[; ;tft_st7735.c: 1082:                 TFT_Print(*str++);
+[e ( _TFT_Print (1 -> *U ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x `uc ]
+"1083
+[; ;tft_st7735.c: 1083:                 x_prev = x_prev + 24;
+[e = _x_prev -> + -> _x_prev `i -> 24 `i `uc ]
+"1084
+[; ;tft_st7735.c: 1084:                 break;
+[e $U 568  ]
+"1085
+[; ;tft_st7735.c: 1085:         }
+}
+[e $U 568  ]
+[e :U 569 ]
+[e [\ _textsize , $ -> 1 `i 570
+ , $ -> 2 `i 571
+ , $ -> 3 `i 572
+ , $ -> 4 `i 573
+ 568 ]
+[e :U 568 ]
+"1086
+[; ;tft_st7735.c: 1086:     }
+}
+[e :U 565 ]
+"1055
+[; ;tft_st7735.c: 1055:     while(*str != '\0')
+[e $ != -> *U _str `ui -> 0 `ui 566  ]
+[e :U 567 ]
+"1087
+[; ;tft_st7735.c: 1087: }
+[e :UE 564 ]
+}
+"1089
+[; ;tft_st7735.c: 1089: uint16_t TFT_GetCursorX(void)
+[v _TFT_GetCursorX `(us ~T0 @X0 1 ef ]
+"1090
+[; ;tft_st7735.c: 1090: {
+{
+[e :U _TFT_GetCursorX ]
+[f ]
+"1091
+[; ;tft_st7735.c: 1091:     return cursor_x;
+[e ) -> _cursor_x `us ]
+[e $UE 574  ]
+"1092
+[; ;tft_st7735.c: 1092: }
+[e :UE 574 ]
+}
+"1094
+[; ;tft_st7735.c: 1094: uint16_t TFT_GetCursorY(void)
+[v _TFT_GetCursorY `(us ~T0 @X0 1 ef ]
+"1095
+[; ;tft_st7735.c: 1095: {
+{
+[e :U _TFT_GetCursorY ]
+[f ]
+"1096
+[; ;tft_st7735.c: 1096:     return cursor_y;
+[e ) -> _cursor_y `us ]
+[e $UE 575  ]
+"1097
+[; ;tft_st7735.c: 1097: }
+[e :UE 575 ]
+}
+"1099
+[; ;tft_st7735.c: 1099: void TFT_SetTextWrap(_Bool w)
+[v _TFT_SetTextWrap `(v ~T0 @X0 1 ef1`a ]
+"1100
+[; ;tft_st7735.c: 1100: {
+{
+[e :U _TFT_SetTextWrap ]
+"1099
+[; ;tft_st7735.c: 1099: void TFT_SetTextWrap(_Bool w)
+[v _w `a ~T0 @X0 1 r1 ]
+"1100
+[; ;tft_st7735.c: 1100: {
+[f ]
+"1101
+[; ;tft_st7735.c: 1101:     wrap = w;
+[e = _wrap _w ]
+"1102
+[; ;tft_st7735.c: 1102: }
+[e :UE 576 ]
+}
+"1104
+[; ;tft_st7735.c: 1104: uint8_t TFT_GetRotation(void)
+[v _TFT_GetRotation `(uc ~T0 @X0 1 ef ]
+"1105
+[; ;tft_st7735.c: 1105: {
+{
+[e :U _TFT_GetRotation ]
+[f ]
+"1106
+[; ;tft_st7735.c: 1106:     return rotation;
+[e ) _rotation ]
+[e $UE 577  ]
+"1107
+[; ;tft_st7735.c: 1107: }
+[e :UE 577 ]
+}
+"1109
+[; ;tft_st7735.c: 1109: uint16_t TFT_GetWidth(void)
+[v _TFT_GetWidth `(us ~T0 @X0 1 ef ]
+"1110
+[; ;tft_st7735.c: 1110: {
+{
+[e :U _TFT_GetWidth ]
+[f ]
+"1111
+[; ;tft_st7735.c: 1111:     return _width;
+[e ) -> __width `us ]
+[e $UE 578  ]
+"1112
+[; ;tft_st7735.c: 1112: }
+[e :UE 578 ]
+}
+"1114
+[; ;tft_st7735.c: 1114: uint16_t TFT_GetHeight(void)
+[v _TFT_GetHeight `(us ~T0 @X0 1 ef ]
+"1115
+[; ;tft_st7735.c: 1115: {
+{
+[e :U _TFT_GetHeight ]
+[f ]
+"1116
+[; ;tft_st7735.c: 1116:     return _height;
+[e ) -> __height `us ]
+[e $UE 579  ]
+"1117
+[; ;tft_st7735.c: 1117: }
+[e :UE 579 ]
+}
+"1119
+[; ;tft_st7735.c: 1119: uint16_t TFT_Color565(uint8_t red, uint8_t green, uint8_t blue)
+[v _TFT_Color565 `(us ~T0 @X0 1 ef3`uc`uc`uc ]
+"1120
+[; ;tft_st7735.c: 1120: {
+{
+[e :U _TFT_Color565 ]
+"1119
+[; ;tft_st7735.c: 1119: uint16_t TFT_Color565(uint8_t red, uint8_t green, uint8_t blue)
+[v _red `uc ~T0 @X0 1 r1 ]
+[v _green `uc ~T0 @X0 1 r2 ]
+[v _blue `uc ~T0 @X0 1 r3 ]
+"1120
+[; ;tft_st7735.c: 1120: {
+[f ]
+"1121
+[; ;tft_st7735.c: 1121:     return ((uint16_t)(red & 0xF8) << 8) | ((uint16_t)(green & 0xFC) << 3) | (blue >> 3);
+[e ) -> | | << -> -> & -> _red `i -> 248 `i `us `ui -> 8 `i << -> -> & -> _green `i -> 252 `i `us `ui -> 3 `i -> >> -> _blue `i -> 3 `i `ui `us ]
+[e $UE 580  ]
+"1122
+[; ;tft_st7735.c: 1122: }
+[e :UE 580 ]
+}
